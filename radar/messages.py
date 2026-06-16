@@ -73,31 +73,51 @@ def format_event_line(event: Event, cfg: Config, going: int = 0) -> str:
     return "\n".join(lines)
 
 
+def format_lead_line(event: Event, cfg: Config) -> str:
+    """Compact line for a date-less lead (e.g. an RSS article)."""
+    emoji = category_emoji(event, cfg)
+    title = _esc(event.title)
+    if event.url:
+        title = f'<a href="{_esc(event.url)}">{title}</a>'
+    return f"{emoji} {title}\n   ✨ {_esc(why_matches(event, cfg))}"
+
+
 def format_digest(
     events: list[Event],
     cfg: Config,
     going_counts: Optional[dict[str, int]] = None,
     map_url: str = "",
+    leads: Optional[list[Event]] = None,
 ) -> str:
-    """Morning digest grouped by day, newest section first."""
+    """Morning digest: dated events grouped by day, plus date-less leads."""
     going_counts = going_counts or {}
+    leads = leads or []
     header = "🛰 <b>Kansai Radar — today's picks</b>"
     if map_url:
         header += f'\n🗺 <a href="{_esc(map_url)}">Live event map</a>'
 
-    if not events:
+    if not events and not leads:
         return header + "\n\nNo matching events on the radar right now. 🌙"
 
-    by_day: dict[str, list[Event]] = defaultdict(list)
-    for event in sorted(events, key=_sort_key):
-        day = event.start_dt.strftime("%A, %d %B %Y") if event.start_dt else "Date TBA"
-        by_day[day].append(event)
-
     blocks = [header]
-    for day, day_events in by_day.items():
-        blocks.append(f"\n━━━ <b>{_esc(day)}</b> ━━━")
-        for event in day_events:
-            blocks.append(format_event_line(event, cfg, going_counts.get(event.id, 0)))
+
+    if events:
+        by_day: dict[str, list[Event]] = defaultdict(list)
+        for event in sorted(events, key=_sort_key):
+            day = event.start_dt.strftime("%A, %d %B %Y") if event.start_dt else "Date TBA"
+            by_day[day].append(event)
+        for day, day_events in by_day.items():
+            blocks.append(f"\n━━━ <b>{_esc(day)}</b> ━━━")
+            for event in day_events:
+                blocks.append(
+                    format_event_line(event, cfg, going_counts.get(event.id, 0))
+                )
+
+    if leads:
+        blocks.append("\n📡 <b>New on the radar</b> <i>(check dates at the link)</i>")
+        for lead in leads:
+            blocks.append(format_lead_line(lead, cfg))
+
     return "\n\n".join(blocks)
 
 

@@ -45,7 +45,7 @@ def collect(cfg: Config) -> list[Event]:
                 Event(
                     title=title,
                     start_dt=None,  # discovery leads have no reliable date
-                    tags=["discovery", "ddg"],
+                    tags=["discovery", "ddg", "lead"],
                     source="duckduckgo",
                     url=href,
                     description=f"Discovery lead for query: {query}",

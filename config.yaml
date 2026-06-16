@@ -116,8 +116,13 @@ geocode:
 # -----------------------------------------------------------------------------
 sources:
   connpass:
+    # Connpass = best structured source for Kansai tech / language-exchange /
+    # meetup / hiking / halal community events (strong overlap with your
+    # interests). As of 2026 the API needs a FREE key (see README step "Connpass
+    # key"): request it from Connpass support, then add it as the optional
+    # CONNPASS_API_KEY GitHub secret. Without the key this source simply skips
+    # itself (the run never breaks).
     enabled: true
-    # Connpass API v2 (free JSON, no key). Keyword + prefecture filtering.
     api_url: "https://connpass.com/api/v2/events/"
     keywords:
       [国際交流, 言語交換, ハッカソン, スタートアップ, IT, ハラル, 登山, テニス]
@@ -133,13 +138,17 @@ sources:
     # feeds:
     #   - "https://example.org/kansai-events.ics"
 
-  # Public RSS / Atom feeds from tourism / event sites.
+  # Public RSS / Atom feeds from tourism / event / city-guide sites.
+  # The Time Out feeds below are free, public and verified working (English,
+  # Kansai coverage). Note: RSS items carry a *publish* date, so these act as
+  # near-term "leads" that the keyword scorer filters — add structured iCal
+  # feeds (above) when you find them for precise event dates.
   rss:
     enabled: true
-    feeds: []
-    # Example:
-    # feeds:
-    #   - "https://www.example-kansai-tourism.jp/events/feed/"
+    feeds:
+      - "https://www.timeout.com/osaka/feed.rss"
+      - "https://www.timeout.com/kyoto/feed.rss"
+    # Add more public feeds here as you find them, e.g. a city-guide /feed/.
 
   # Public HTML listing pages parsed with BeautifulSoup. Each entry describes
   # how to find event rows on the page using CSS selectors. Tune per site.
@@ -189,3 +198,7 @@ telegram:
 
 # How long after an event ends before it is purged from state.json.
 retention_days_after_end: 2
+
+# Date-less "leads" (RSS articles, discovery hits) have no real event date.
+# They appear once in the digest, then expire this many days after first seen.
+lead_retention_days: 5

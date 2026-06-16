@@ -102,6 +102,10 @@ class Config:
     def retention_days(self) -> int:
         return int(self.data.get("retention_days_after_end", 2))
 
+    @property
+    def lead_retention_days(self) -> int:
+        return int(self.data.get("lead_retention_days", 5))
+
     def source_cfg(self, name: str) -> dict[str, Any]:
         return self.get("sources", name, default={}) or {}
 

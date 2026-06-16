@@ -104,6 +104,28 @@ Everything tunable lives in **`config.yaml`** — no code changes needed.
 Add your own real feed URLs to `ical`/`rss`/`html` to enrich coverage — the
 shipped config includes the structure and commented examples.
 
+### Source status (out of the box)
+
+| Source | Works on day one? | Notes |
+|---|---|---|
+| **Time Out Osaka / Kyoto RSS** | ✅ enabled & verified | Free, public, English. Brings real Kansai event/news leads immediately. RSS items carry a *publish* date (not the event date), so they act as near-term leads filtered by your keywords; past items auto-purge and only fresh ones surface in each day's digest. |
+| **Connpass** | ⚠️ needs a free key | Best structured source for tech / language-exchange / meetup / hiking / halal community events. As of 2026 the API requires a **free** key (see below). Without it, this source skips itself silently. |
+| **iCal / HTML** | scaffolded | Empty by default — add public `.ics` calendars or listing pages you trust. Many big tourism sites load events via JavaScript or block bots, so they can't be scraped with `requests`; prefer official `.ics` feeds. |
+| **DuckDuckGo discovery** | off | Optional, best-effort, low-confidence leads. |
+
+### Getting the free Connpass key
+
+1. Email Connpass support (see their API page / developer docs) to request an
+   API key for personal/community use — it's **free**, replies usually arrive
+   within about a week.
+2. Add it as a repository secret named `CONNPASS_API_KEY` (Settings → Secrets →
+   Actions). The workflow already passes it through.
+3. That's it — Connpass events start flowing on the next run. If you never add
+   it, everything else keeps working.
+
+> 💡 Want precise dates, venues and map pins? Add **iCal (`.ics`)** feeds — they
+> carry structured start/end times and locations, unlike RSS article feeds.
+
 ---
 
 ## 🤖 Optional chat commands

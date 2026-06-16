@@ -86,6 +86,9 @@ class State:
         existing = self.events_raw.get(event.id)
         if existing:
             event.notified = {**existing.get("notified", {}), **event.notified}
+            # Preserve the original first-seen timestamp across updates.
+            if existing.get("first_seen") and not event.first_seen:
+                event.first_seen = existing["first_seen"]
             # Keep coordinates if the new copy lacks them.
             if event.lat is None and existing.get("lat") is not None:
                 event.lat = existing["lat"]

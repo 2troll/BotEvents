@@ -7,7 +7,6 @@ from typing import Any
 
 from ..config import Config
 from ..models import Event
-from .base import parse_datetime
 
 log = logging.getLogger(__name__)
 
@@ -36,19 +35,17 @@ def collect(cfg: Config) -> list[Event]:
 
 def _to_event(entry: Any, source_url: str) -> Event:
     title = getattr(entry, "title", "").strip()
-    # Published/updated date acts as the event start when no better data exists.
-    when = (
-        getattr(entry, "published", None)
-        or getattr(entry, "updated", None)
-        or getattr(entry, "start", None)
-    )
     summary = getattr(entry, "summary", "")
+    # An RSS item's date is its *publish* date, not the event date, so we leave
+    # start_dt empty and treat the item as a date-less "lead": it surfaces once
+    # in the digest and then expires (see pipeline lead handling). Use iCal for
+    # feeds that carry real structured event dates.
     return Event(
         title=title,
-        start_dt=parse_datetime(when),
+        start_dt=None,
         venue="",
         address="",
-        tags=["rss"],
+        tags=["rss", "lead"],
         source="rss",
         url=getattr(entry, "link", source_url),
         description=summary,

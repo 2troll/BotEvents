@@ -49,6 +49,9 @@ class Event:
     category: str = ""
     major: bool = False
     notified: dict[str, bool] = field(default_factory=dict)
+    # ISO timestamp of when this event was first ingested. Used to expire
+    # date-less "leads" (e.g. RSS articles) that carry no real event date.
+    first_seen: str = ""
 
     def __post_init__(self) -> None:
         if not self.id:

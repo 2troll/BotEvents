@@ -99,30 +99,54 @@ def _ingest(cfg: Config, state: State) -> None:
     raw = collect_all(cfg)
     deduped = dedupe(raw)
     geocoder = Geocoder(cfg, state)
+    now_iso = datetime.utcnow().isoformat()
     kept = 0
     for event in deduped:
         score_event(event, cfg)
         if not is_relevant(event, cfg):
             continue
         geocoder.enrich(event)
+        if not event.first_seen:
+            event.first_seen = now_iso
         state.upsert_event(event)
         kept += 1
     log.info("Ingested %d relevant events into state", kept)
 
 
 def _cleanup(cfg: Config, state: State, now: datetime) -> None:
+    """Purge dated events past their retention window and expired leads."""
     cutoff = now - timedelta(days=cfg.retention_days)
+    lead_cutoff = now - timedelta(days=cfg.lead_retention_days)
     removed = 0
     for event in state.all_events():
         ref = event.end_dt or event.start_dt
         if ref is None:
+            # Date-less lead: expire by first-seen age instead.
+            if _lead_expired(event, lead_cutoff, cfg.tz):
+                state.remove_event(event.id)
+                removed += 1
             continue
         ref_aware = ref.replace(tzinfo=cfg.tz) if ref.tzinfo is None else ref
         if ref_aware < cutoff:
             state.remove_event(event.id)
             removed += 1
     if removed:
-        log.info("Purged %d past events", removed)
+        log.info("Purged %d past/expired events", removed)
+
+
+def _lead_expired(event: Event, cutoff: datetime, tz) -> bool:
+    if not event.first_seen:
+        return False  # stamped on next ingest; keep for now
+    seen = _parse_iso(event.first_seen, tz)
+    return seen is not None and seen < cutoff
+
+
+def _parse_iso(value: str, tz) -> Optional[datetime]:
+    try:
+        dt = datetime.fromisoformat(value)
+    except ValueError:
+        return None
+    return dt.replace(tzinfo=tz) if dt.tzinfo is None else dt.astimezone(tz)
 
 
 def _current_kept(cfg: Config, state: State, now: datetime) -> list[Event]:
@@ -162,12 +186,19 @@ def _maybe_send_digest(
             return
 
     todays = [e for e in kept if _same_day(e, now, cfg.tz)]
+    # Date-less leads (e.g. fresh RSS articles) shown once, then flagged.
+    leads = [
+        e for e in kept if e.start_dt is None and not e.notified.get("digest_lead")
+    ]
     map_url = cfg.get("telegram", "map_public_url", default="")
     going = {e.id: state.going_count(e.id) for e in todays}
-    text = format_digest(todays, cfg, going, map_url)
+    text = format_digest(todays, cfg, going, map_url, leads=leads)
     tg.send_message(text)
+    for lead in leads:
+        lead.notified["digest_lead"] = True
+        state.upsert_event(lead)
     state.last_digest_date = today
-    log.info("Sent digest with %d event(s)", len(todays))
+    log.info("Sent digest: %d dated event(s), %d lead(s)", len(todays), len(leads))
 
 
 def _send_reminders(

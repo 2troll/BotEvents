@@ -45,6 +45,17 @@ class ScoringTests(unittest.TestCase):
         e = score_event(_evt("淀川花火大会", attendee_count=100), CFG)
         self.assertTrue(e.major)
 
+    def test_word_boundary_avoids_substring_false_positive(self):
+        # "IT" must NOT match inside "kitchen"/"with"; "expo" must NOT match
+        # "exponent". A plain food headline should not score as tech.
+        e = score_event(_evt("New kitchen opens with limited seats"), CFG)
+        self.assertNotIn("tech", e.matched)
+        self.assertFalse(is_relevant(e, CFG))
+
+    def test_word_boundary_still_matches_real_word(self):
+        e = score_event(_evt("Osaka Tech Expo and startup hackathon"), CFG)
+        self.assertIn("tech", e.matched)
+
 
 class DedupeTests(unittest.TestCase):
     def test_same_event_collapses(self):
@@ -89,6 +100,12 @@ class MessageTests(unittest.TestCase):
         out = format_digest([e], CFG, map_url="https://example.com")
         self.assertIn("花火大会", out)
         self.assertIn("Kansai Radar", out)
+
+    def test_digest_leads_section(self):
+        lead = score_event(_evt("Osaka fireworks 花火 article", start_dt=None), CFG)
+        out = format_digest([], CFG, leads=[lead])
+        self.assertIn("New on the radar", out)
+        self.assertIn("花火", out)
 
 
 if __name__ == "__main__":
