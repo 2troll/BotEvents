@@ -4,17 +4,60 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kansai Radar — Upcoming Events</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   <style>
-    body { font-family: system-ui, sans-serif; margin: 3rem auto; max-width: 40rem; padding: 0 1rem; color: #222; }
-    code { background: #f0f0f0; padding: 0.1rem 0.3rem; border-radius: 4px; }
+    html, body { margin: 0; height: 100%; font-family: system-ui, sans-serif; }
+    #map { height: 100%; width: 100%; }
+    .banner { position: absolute; z-index: 1000; top: 10px; left: 50px;
+      background: rgba(255,255,255,0.92); padding: 6px 12px; border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.3); font-size: 14px; }
+    .banner b { color: #1565c0; }
+    .popup-title { font-size: 15px; font-weight: 600; }
+    .popup-row { margin-top: 3px; font-size: 13px; }
   </style>
 </head>
 <body>
-  <h1>🛰 Kansai Radar</h1>
-  <p>The live event map will appear here after the first scheduled run.</p>
-  <p>If you are setting this up: enable <strong>GitHub Pages</strong> on the
-     <code>/docs</code> folder, add your <code>TELEGRAM_BOT_TOKEN</code> and
-     <code>TELEGRAM_CHAT_ID</code> secrets, and enable Actions. The bot will
-     regenerate this page automatically.</p>
+  <div class="banner">🛰 <b>Kansai Radar — Upcoming Events</b> — 0 events · updated 2026-06-16 23:40 UTC</div>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script>
+    var markers = [];
+    var map = L.map('map').setView([34.6863, 135.52], 9);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var allLayer = L.layerGroup().addTo(map);
+    var goingLayer = L.layerGroup();
+
+    function esc(s) { return (s || '').replace(/[&<>"]/g, function(c) {
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+    markers.forEach(function(m) {
+      var popup = '<div class="popup-title">' + esc(m.emoji) + ' ' + esc(m.title) + '</div>' +
+        '<div class="popup-row">🗓 ' + esc(m.when) + '</div>' +
+        (m.venue ? '<div class="popup-row">📍 ' + esc(m.venue) + '</div>' : '') +
+        '<div class="popup-row">💴 ' + esc(m.price) + '</div>' +
+        (m.attendees ? '<div class="popup-row">👥 ' + m.attendees + ' expected</div>' : '') +
+        (m.going ? '<div class="popup-row">🙋 ' + m.going + ' going</div>' : '') +
+        '<div class="popup-row">' +
+          (m.url ? '<a href="' + esc(m.url) + '" target="_blank">Source</a> · ' : '') +
+          '<a href="' + esc(m.maps) + '" target="_blank">Google Maps</a></div>';
+      var marker = L.circleMarker([m.lat, m.lng], {
+        radius: m.radius, color: m.color, fillColor: m.color,
+        fillOpacity: 0.75, weight: 1.5
+      }).bindPopup(popup);
+      marker.addTo(allLayer);
+      if (m.going > 0) { marker.addTo(goingLayer); }
+    });
+
+    L.control.layers(null, {
+      'All events': allLayer,
+      "I'm going": goingLayer
+    }, { collapsed: false }).addTo(map);
+  </script>
 </body>
 </html>
