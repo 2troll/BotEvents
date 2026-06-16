@@ -1,0 +1,191 @@
+# =============================================================================
+# Kansai Radar — configuration
+# =============================================================================
+# Everything tunable lives here. No code edits needed to change interests,
+# sources, thresholds or reminder timing. Secrets (Telegram token/chat id) are
+# NOT stored here — they come from the TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID
+# environment variables (GitHub Actions secrets).
+# =============================================================================
+
+timezone: Asia/Tokyo
+
+region:
+  name: Kansai
+  # Used to bias geocoding and free-text source queries toward the region.
+  prefectures: [Osaka, Kyoto, Hyogo, Nara, Wakayama, Shiga]
+  # Appended to Nominatim queries that have no clear locality.
+  country_hint: Japan
+
+# -----------------------------------------------------------------------------
+# Relevance scoring
+# -----------------------------------------------------------------------------
+# An event's score is the sum of the weights of every interest whose keywords
+# appear in its title / description / tags. Keep events scoring >= threshold.
+score_threshold: 3.0
+
+# The category (interest tag) with the highest matched weight becomes the
+# event's primary category and drives the emoji + map colour.
+interests:
+  - tag: halal
+    weight: 5
+    emoji: "🕌"
+    keywords:
+      [halal, "muslim-friendly", muslim, ハラル, ハラール, モスク, mosque, イスラム]
+  - tag: hiking
+    weight: 4
+    emoji: "🥾"
+    keywords:
+      [hiking, hike, trekking, outdoors, mountain, 登山, ハイキング, トレッキング, 山登り, 自然]
+  - tag: horses
+    weight: 4
+    emoji: "🐎"
+    keywords:
+      [horse, "horse racing", racecourse, jra, 競馬, 阪神競馬, 京都競馬, 園田競馬, 乗馬]
+  - tag: language_exchange
+    weight: 4
+    emoji: "🗣️"
+    keywords:
+      ["language exchange", "international exchange", meetup, 国際交流, 言語交換, 交流会, 多文化]
+  - tag: tennis
+    weight: 3
+    emoji: "🎾"
+    keywords: [tennis, テニス]
+  - tag: sports
+    weight: 2
+    emoji: "🏅"
+    keywords: [sports, marathon, スポーツ, マラソン, 試合, 大会]
+  - tag: fireworks
+    weight: 4
+    emoji: "🎆"
+    keywords: [fireworks, hanabi, 花火, 花火大会]
+  - tag: festival
+    weight: 3
+    emoji: "🎏"
+    keywords: [festival, matsuri, 祭, 祭り, まつり, 縁日]
+  - tag: tech
+    weight: 3
+    emoji: "💻"
+    keywords:
+      [tech, gadget, expo, startup, hackathon, テック, ガジェット, スタートアップ, 技術, ハッカソン, IT]
+  - tag: mystery
+    weight: 2
+    emoji: "🔮"
+    keywords: [mystery, weird, curious, occult, 不思議, 謎, ミステリー, 心霊]
+  - tag: nightlife
+    weight: 2
+    emoji: "🎉"
+    keywords:
+      [nightlife, party, popular, "pop culture", anime, clubbing, ナイトライフ, パーティー, ポップ, アニメ, クラブ]
+  - tag: tourguide
+    weight: 2
+    emoji: "🧭"
+    keywords:
+      [tour, sightseeing, guide, landmark, ツアー, 観光, ガイド, 名所, 体験]
+
+# Events flagged "major" get advance heads-up reminders (see reminders below).
+# An event is major if its primary category is in this list OR its
+# attendee_count >= major_attendee_threshold OR it carries a manual `major` flag.
+major_categories: [fireworks, festival, horses]
+major_attendee_threshold: 5000
+
+# -----------------------------------------------------------------------------
+# Reminders
+# -----------------------------------------------------------------------------
+reminders:
+  # Days-before checkpoints for "major" events (heads-up to prepare).
+  major_days: [30, 7, 1]
+  # Mention normal events the day before, in addition to day-of digest.
+  normal_day_before: true
+  # "Starting soon" intraday window, in hours.
+  intraday_hours: 3
+
+# -----------------------------------------------------------------------------
+# Geocoding (OpenStreetMap Nominatim — free, no key)
+# -----------------------------------------------------------------------------
+geocode:
+  enabled: true
+  nominatim_url: "https://nominatim.openstreetmap.org/search"
+  # A descriptive User-Agent is REQUIRED by the Nominatim usage policy.
+  user_agent: "KansaiRadar/1.0 (https://github.com/2troll/botevents)"
+  # Be polite: >= 1 request/second. Results are cached in state.json forever.
+  min_interval_sec: 1.2
+  max_lookups_per_run: 25
+
+# -----------------------------------------------------------------------------
+# Sources (pluggable). Disable any with `enabled: false`.
+# -----------------------------------------------------------------------------
+sources:
+  connpass:
+    enabled: true
+    # Connpass API v2 (free JSON, no key). Keyword + prefecture filtering.
+    api_url: "https://connpass.com/api/v2/events/"
+    keywords:
+      [国際交流, 言語交換, ハッカソン, スタートアップ, IT, ハラル, 登山, テニス]
+    # Connpass prefecture codes for Kansai.
+    prefectures: [osaka, kyoto, hyogo, nara, wakayama, shiga]
+    count: 50
+
+  # Public iCal (.ics) calendars. Add any free/public calendar URLs here.
+  ical:
+    enabled: true
+    feeds: []
+    # Example (uncomment & replace with a real public .ics):
+    # feeds:
+    #   - "https://example.org/kansai-events.ics"
+
+  # Public RSS / Atom feeds from tourism / event sites.
+  rss:
+    enabled: true
+    feeds: []
+    # Example:
+    # feeds:
+    #   - "https://www.example-kansai-tourism.jp/events/feed/"
+
+  # Public HTML listing pages parsed with BeautifulSoup. Each entry describes
+  # how to find event rows on the page using CSS selectors. Tune per site.
+  html:
+    enabled: true
+    pages: []
+    # Example shape:
+    # pages:
+    #   - url: "https://www.example.jp/events/"
+    #     item_selector: ".event-item"
+    #     title_selector: ".title"
+    #     link_selector: "a"
+    #     date_selector: ".date"
+    #     venue_selector: ".venue"
+
+  # Best-effort keyless discovery via DuckDuckGo HTML. Off by default.
+  duckduckgo:
+    enabled: false
+    html_url: "https://html.duckduckgo.com/html/"
+    queries:
+      - "Osaka events this weekend"
+      - "Kansai hanabi 2026"
+      - "Kyoto matsuri 2026"
+    max_results: 10
+
+# -----------------------------------------------------------------------------
+# Map (Leaflet + OpenStreetMap tiles — free, no key)
+# -----------------------------------------------------------------------------
+map:
+  output: "docs/index.html"
+  center: [34.6863, 135.5200] # Osaka
+  zoom: 9
+  title: "Kansai Radar — Upcoming Events"
+
+# -----------------------------------------------------------------------------
+# Telegram output. Token/chat id come from env, never stored here.
+# -----------------------------------------------------------------------------
+telegram:
+  api_base: "https://api.telegram.org"
+  # Public map URL shown at the top of the digest (set after enabling Pages).
+  map_public_url: "https://2troll.github.io/botevents/"
+  # Enable processing of /hoy, /semana, /<tag>, /mapa, /voy commands.
+  commands_enabled: true
+  # The digest is sent at most once per JST day, on the first run at/after this
+  # local hour (so early intraday runs don't fire it prematurely).
+  digest_hour: 7
+
+# How long after an event ends before it is purged from state.json.
+retention_days_after_end: 2

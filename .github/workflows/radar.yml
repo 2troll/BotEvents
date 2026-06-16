@@ -1,0 +1,68 @@
+name: Kansai Radar
+
+# Free GitHub Actions scheduling.
+# NOTE: cron times are UTC and are NOT minute-exact on the free tier — the
+# queue can delay a run by several minutes. We run a morning digest slot plus
+# a few intraday slots for "starting soon" reminders. The auto-commit at the
+# end keeps the repo active so the 60-day inactivity pause never disables cron.
+on:
+  schedule:
+    - cron: "0 22 * * *"   # 07:00 JST — morning digest window
+    - cron: "0 1 * * *"    # 10:00 JST
+    - cron: "0 4 * * *"    # 13:00 JST
+    - cron: "0 7 * * *"    # 16:00 JST
+    - cron: "0 10 * * *"   # 19:00 JST
+  workflow_dispatch:        # allow manual runs from the Actions tab
+
+# Allow the workflow to commit updated state.json and docs/ back to the repo.
+permissions:
+  contents: write
+
+# Never run two cycles at once (they share state.json).
+concurrency:
+  group: kansai-radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run radar
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Optional: only if you have a Connpass API key. Leave unset to run keyless.
+          CONNPASS_API_KEY: ${{ secrets.CONNPASS_API_KEY }}
+        run: python -m radar --once
+
+      - name: Commit updated state and map
+        run: |
+          git config user.name "kansai-radar[bot]"
+          git config user.email "kansai-radar@users.noreply.github.com"
+          git add state.json docs/ || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update radar state and map [skip ci]"
+            # Retry push with simple backoff in case of transient failures.
+            for attempt in 1 2 3 4; do
+              if git push; then
+                break
+              fi
+              echo "push failed (attempt $attempt); retrying..."
+              sleep $((2 ** attempt))
+            done
+          fi
