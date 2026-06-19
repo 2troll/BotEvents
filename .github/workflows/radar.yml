@@ -46,7 +46,14 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           # Optional: only if you have a Connpass API key. Leave unset to run keyless.
           CONNPASS_API_KEY: ${{ secrets.CONNPASS_API_KEY }}
-        run: python -m radar --once
+        run: |
+          # Manual runs force a digest so you can test end-to-end immediately;
+          # scheduled runs keep the once-per-day gate.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python -m radar --once --force-digest
+          else
+            python -m radar --once
+          fi
 
       - name: Commit updated state and map
         run: |
