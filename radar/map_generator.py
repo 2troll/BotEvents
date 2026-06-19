@@ -89,7 +89,16 @@ def generate_map(events: list[Event], cfg: Config, state: State) -> Path:
     center = map_cfg.get("center", [34.6863, 135.5200])
     zoom = int(map_cfg.get("zoom", 9))
     title = map_cfg.get("title", "Kansai Radar — Upcoming Events")
-    generated = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+    # Use the last data-collection time (not "now") so the page only changes
+    # when the data does — avoids an empty commit on every frequent poll run.
+    stamp = state.last_collect_utc
+    if stamp:
+        try:
+            generated = datetime.fromisoformat(stamp).strftime("%Y-%m-%d %H:%M JST")
+        except ValueError:
+            generated = stamp
+    else:
+        generated = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
 
     html_doc = _TEMPLATE.format(
         title=html.escape(title),

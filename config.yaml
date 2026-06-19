@@ -208,6 +208,11 @@ telegram:
 # How long after an event ends before it is purged from state.json.
 retention_days_after_end: 2
 
+# How often to actually scrape the sources (minutes). The workflow runs much
+# more often than this to answer commands quickly, but only re-collects events
+# once this interval has passed — polite to sources and avoids redundant work.
+collect_interval_min: 120
+
 # Date-less "leads" (RSS articles, discovery hits) have no real event date.
 # They appear once in the digest, then expire this many days after first seen.
 lead_retention_days: 5

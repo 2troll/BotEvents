@@ -106,6 +106,10 @@ class Config:
     def lead_retention_days(self) -> int:
         return int(self.data.get("lead_retention_days", 5))
 
+    @property
+    def collect_interval_min(self) -> int:
+        return int(self.data.get("collect_interval_min", 120))
+
     def source_cfg(self, name: str) -> dict[str, Any]:
         return self.get("sources", name, default={}) or {}
 

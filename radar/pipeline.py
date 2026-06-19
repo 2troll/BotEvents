@@ -59,9 +59,13 @@ def run(cfg: Config, state: State, opts: RunOptions) -> None:
             "TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set; messages will print only."
         )
 
-    # 1-3. Collect, score, geocode, persist kept events.
-    if not opts.skip_collect:
+    # 1-3. Collect, score, geocode, persist kept events — but only when the
+    # collect interval has elapsed, so frequent command-polling runs stay light
+    # and polite to sources.
+    if not opts.skip_collect and _should_collect(cfg, state, now, opts.force_digest):
         _ingest(cfg, state)
+        state.last_collect_utc = now.isoformat()
+        state.last_run_utc = datetime.utcnow().isoformat()
 
     # 4. Purge ended events.
     _cleanup(cfg, state, now)
@@ -89,9 +93,24 @@ def run(cfg: Config, state: State, opts: RunOptions) -> None:
         except Exception as exc:  # noqa: BLE001
             log.exception("Command processing failed: %s", exc)
 
-    # 10. Persist.
-    state.last_run_utc = datetime.utcnow().isoformat()
+    # 10. Persist. (last_run_utc is bumped only on collection so idle
+    # command-polling runs leave state.json byte-identical → no empty commits.)
     state.save()
+
+
+def _should_collect(cfg: Config, state: State, now: datetime, force: bool) -> bool:
+    """Whether enough time has passed to re-scrape the sources."""
+    if force:
+        return True
+    last = state.last_collect_utc
+    if not last:
+        return True
+    try:
+        last_dt = datetime.fromisoformat(last)
+    except ValueError:
+        return True
+    last_dt = last_dt.replace(tzinfo=cfg.tz) if last_dt.tzinfo is None else last_dt
+    return (now - last_dt) >= timedelta(minutes=cfg.collect_interval_min)
 
 
 def kept_upcoming(cfg: Config, state: State, now: Optional[datetime] = None) -> list[Event]:

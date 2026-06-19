@@ -29,6 +29,7 @@ _DEFAULT: dict[str, Any] = {
     "telegram_offset": 0,
     "last_digest_date": None,
     "last_run_utc": None,
+    "last_collect_utc": None,
 }
 
 
@@ -145,3 +146,11 @@ class State:
     @last_run_utc.setter
     def last_run_utc(self, value: Optional[str]) -> None:
         self._data["last_run_utc"] = value
+
+    @property
+    def last_collect_utc(self) -> Optional[str]:
+        return self._data.get("last_collect_utc")
+
+    @last_collect_utc.setter
+    def last_collect_utc(self, value: Optional[str]) -> None:
+        self._data["last_collect_utc"] = value

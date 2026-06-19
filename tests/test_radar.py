@@ -187,6 +187,24 @@ def _state():
     )
 
 
+class CollectGatingTests(unittest.TestCase):
+    def test_should_collect_respects_interval(self):
+        from radar.pipeline import _should_collect
+
+        st = _state()
+        now = datetime.now(TZ)
+        # No prior collection -> collect.
+        self.assertTrue(_should_collect(CFG, st, now, force=False))
+        # Just collected -> skip until interval elapses.
+        st.last_collect_utc = now.isoformat()
+        self.assertFalse(_should_collect(CFG, st, now, force=False))
+        # force always collects.
+        self.assertTrue(_should_collect(CFG, st, now, force=True))
+        # After the interval, collect again.
+        later = now + timedelta(minutes=CFG.collect_interval_min + 1)
+        self.assertTrue(_should_collect(CFG, st, later, force=False))
+
+
 class InteractivityTests(unittest.TestCase):
     def test_bottom_button_label_maps_to_command(self):
         from radar.messages import LABEL_TO_COMMAND

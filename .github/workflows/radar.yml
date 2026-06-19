@@ -7,10 +7,12 @@ name: Kansai Radar
 # end keeps the repo active so the 60-day inactivity pause never disables cron.
 on:
   schedule:
-    # Every 2 hours (UTC). The 22:00 UTC run = 07:00 JST is the morning-digest
-    # window; the rest poll for button taps / commands and fire reminders.
+    # Every 10 minutes so button taps / commands are answered within minutes.
+    # Each run is light: it only re-scrapes the sources every `collect_interval_min`
+    # (default 120 min); the rest just poll Telegram and fire due reminders.
     # Public repos get free unlimited Actions minutes, so frequent runs are fine.
-    - cron: "0 */2 * * *"
+    # (GitHub may delay scheduled runs by a few minutes under load.)
+    - cron: "*/10 * * * *"
   workflow_dispatch:        # allow manual runs from the Actions tab
 
 # Allow the workflow to commit updated state.json and docs/ back to the repo.

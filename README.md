@@ -153,10 +153,14 @@ answers commands **and button taps** (no server needed):
 | `/voy <event_id>` | Mark "I'm going"; shown on the map's personal layer |
 | `/ayuda` | Help |
 
-Replies arrive on the **next scheduled run** (the workflow runs every ~2 hours),
-so they are not instant — this is the trade-off for being 100% serverless and
-free. URL buttons (🗺 Mapa, 🔗 Info) open instantly; action buttons (🙋 Voy,
-filters) are processed on the next run.
+Replies arrive on the **next scheduled run**. The workflow polls **every ~10
+minutes**, so button taps/commands are answered within a few minutes (not
+instant — that's the trade-off for being serverless). Each poll is light: it
+only re-scrapes the sources every `collect_interval_min` (default 120 min) and
+otherwise just checks Telegram and fires due reminders, so idle polls make no
+commits. URL buttons (🗺 Mapa, 🔗 Info) open instantly; action buttons (🙋 Voy,
+filters) are processed on the next poll. For truly instant replies, see
+`--serve` below.
 
 ### ⚡ Want INSTANT replies? Deploy `--serve` on a free 24/7 host
 
