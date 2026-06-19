@@ -62,16 +62,29 @@ def process_commands(
     if not updates:
         return
 
-    ctx = _Context(cfg, state, kept_events)
+    ctx = build_context(cfg, state, kept_events)
     for update in updates:
         state.telegram_offset = update["update_id"] + 1
-        try:
-            if "callback_query" in update:
-                _handle_callback(tg, ctx, update["callback_query"])
-            elif "message" in update:
-                _handle_message(tg, ctx, update["message"])
-        except Exception as exc:  # noqa: BLE001 - never let one update break the rest
-            log.warning("Failed to handle update %s: %s", update.get("update_id"), exc)
+        dispatch_update(tg, ctx, update)
+
+
+def build_context(cfg: Config, state: State, kept: list[Event]) -> "_Context":
+    """Build the shared lookup context for handling updates."""
+    return _Context(cfg, state, kept)
+
+
+def dispatch_update(tg: TelegramClient, ctx: "_Context", update: dict[str, Any]) -> None:
+    """Handle one Telegram update (message or button tap), isolating errors.
+
+    Used both by the GitHub-Actions polling path and the live --serve loop.
+    """
+    try:
+        if "callback_query" in update:
+            _handle_callback(tg, ctx, update["callback_query"])
+        elif "message" in update:
+            _handle_message(tg, ctx, update["message"])
+    except Exception as exc:  # noqa: BLE001 - never let one update break the rest
+        log.warning("Failed to handle update %s: %s", update.get("update_id"), exc)
 
 
 class _Context:

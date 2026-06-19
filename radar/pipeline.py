@@ -41,6 +41,7 @@ class RunOptions:
     dry_run: bool = False
     force_digest: bool = False
     skip_collect: bool = False
+    skip_commands: bool = False  # set in --serve mode (commands handled live)
 
 
 def run(cfg: Config, state: State, opts: RunOptions) -> None:
@@ -81,15 +82,21 @@ def run(cfg: Config, state: State, opts: RunOptions) -> None:
     except Exception as exc:  # noqa: BLE001
         log.exception("Map generation failed: %s", exc)
 
-    # 9. Commands.
-    try:
-        process_commands(tg, cfg, state, kept)
-    except Exception as exc:  # noqa: BLE001
-        log.exception("Command processing failed: %s", exc)
+    # 9. Commands (skipped in --serve mode, where they are handled live).
+    if not opts.skip_commands:
+        try:
+            process_commands(tg, cfg, state, kept)
+        except Exception as exc:  # noqa: BLE001
+            log.exception("Command processing failed: %s", exc)
 
     # 10. Persist.
     state.last_run_utc = datetime.utcnow().isoformat()
     state.save()
+
+
+def kept_upcoming(cfg: Config, state: State, now: Optional[datetime] = None) -> list[Event]:
+    """Public helper: the current kept/upcoming events (used by --serve)."""
+    return _current_kept(cfg, state, now or datetime.now(cfg.tz))
 
 
 # ---------------------------------------------------------------------------

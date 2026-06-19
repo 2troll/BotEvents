@@ -158,6 +158,38 @@ so they are not instant — this is the trade-off for being 100% serverless and
 free. URL buttons (🗺 Mapa, 🔗 Info) open instantly; action buttons (🙋 Voy,
 filters) are processed on the next run.
 
+### ⚡ Want INSTANT replies? Deploy `--serve` on a free 24/7 host
+
+The same code can run as a long-lived process that answers commands and button
+taps **immediately**, while still doing the autonomous digest/reminders/map on
+an interval. It's free and needs no credit card on Telegram-bot hosts such as
+**[Pella](https://www.pella.app/free-telegram-bot-hosting)** or
+**[JustRunMy.App](https://justrunmy.app/telegram-bots)**.
+
+1. On the host, deploy this GitHub repo.
+2. Set the **start/run command** to:
+   ```
+   python -m radar --serve
+   ```
+   (it installs `requirements.txt` automatically on most hosts).
+3. Set environment variables:
+   - `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` (required)
+   - *Optional, recommended* — so the public map keeps updating and state
+     survives restarts: `GITHUB_TOKEN` (a fine-grained token with **Contents:
+     read & write** on this repo), `GITHUB_REPO=2troll/BotEvents`,
+     `GITHUB_BRANCH=<your default branch>`.
+4. **Important:** disable the **GitHub Actions** "Kansai Radar" workflow while
+   `--serve` is running. Telegram allows only one `getUpdates` consumer, so the
+   two would otherwise fight over updates. In `--serve` mode the process does
+   everything the Action did (digest, reminders, map) plus instant replies.
+
+Local test: `python -m radar --serve --serve-interval 600` (runs the pipeline
+every 10 min and answers instantly in between). Stop with Ctrl-C.
+
+> Trade-off: `--serve` needs a host that stays awake. The free Telegram-bot
+> hosts above don't sleep. If you ever stop the host, just re-enable the GitHub
+> Actions workflow and you're back to the (slower but zero-host) mode.
+
 ---
 
 ## ⏱ Scheduling notes (free tier)

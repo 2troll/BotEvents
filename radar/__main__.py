@@ -46,6 +46,17 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Skip source collection; operate on existing state only.",
     )
+    parser.add_argument(
+        "--serve",
+        action="store_true",
+        help="Run forever, answering commands instantly (for a free 24/7 host).",
+    )
+    parser.add_argument(
+        "--serve-interval",
+        type=int,
+        default=1800,
+        help="Seconds between full pipeline runs in --serve mode (default 1800).",
+    )
     parser.add_argument("--verbose", "-v", action="store_true", help="Debug logging.")
     return parser
 
@@ -59,6 +70,11 @@ def main(argv: list[str] | None = None) -> int:
     except FileNotFoundError:
         log.error("Config file not found: %s", args.config)
         return 2
+
+    if args.serve:
+        from .serve import serve
+
+        return serve(cfg, args.state, args.serve_interval)
 
     state = State.load(args.state)
     opts = RunOptions(
