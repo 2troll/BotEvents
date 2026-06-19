@@ -138,6 +138,15 @@ sources:
     # feeds:
     #   - "https://example.org/kansai-events.ics"
 
+  # Wix Events pages (events embedded as structured JSON — dated + geolocated,
+  # no key/account needed). welcometokyoevents.com covers Kansai international
+  # meetups, language exchange, parties — strong overlap with your interests.
+  # robots.txt of that site allows this. Add more public Wix event pages here.
+  wixevents:
+    enabled: true
+    pages:
+      - "https://www.welcometokyoevents.com/osaka"
+
   # Public RSS / Atom feeds from tourism / event / city-guide sites.
   # The Time Out feeds below are free, public and verified working (English,
   # Kansai coverage). Note: RSS items carry a *publish* date, so these act as

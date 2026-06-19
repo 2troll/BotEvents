@@ -108,6 +108,7 @@ shipped config includes the structure and commented examples.
 
 | Source | Works on day one? | Notes |
 |---|---|---|
+| **WelcomeJapan / Wix Events** (`welcometokyoevents.com/osaka`) | ✅ enabled & verified | Free, public, **no key/account**. Real **dated + geolocated** events: Kansai international meetups, language exchange, parties — strong overlap with your interests. Parsed from the page's embedded structured JSON (not fragile HTML scraping); that site's robots.txt allows it. Add more public Wix event pages under `sources.wixevents.pages`. |
 | **Time Out Osaka / Kyoto RSS** | ✅ enabled & verified | Free, public, English. Brings real Kansai event/news leads immediately. RSS items carry a *publish* date (not the event date), so they act as near-term leads filtered by your keywords; past items auto-purge and only fresh ones surface in each day's digest. |
 | **Connpass** | ⚠️ needs a free key | Best structured source for tech / language-exchange / meetup / hiking / halal community events. As of 2026 the API requires a **free** key (see below). Without it, this source skips itself silently. |
 | **iCal / HTML** | scaffolded | Empty by default — add public `.ics` calendars or listing pages you trust. Many big tourism sites load events via JavaScript or block bots, so they can't be scraped with `requests`; prefer official `.ics` feeds. |

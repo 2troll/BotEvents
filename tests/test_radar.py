@@ -108,5 +108,43 @@ class MessageTests(unittest.TestCase):
         self.assertIn("花火", out)
 
 
+class WixEventsTests(unittest.TestCase):
+    """Offline parse of an embedded Wix-warmup events payload."""
+
+    FIXTURE = (
+        '<html><body>'
+        '<script id="wix-warmup-data" type="application/json">'
+        '{"appsWarmupData":{"app":{"w":{"events":{"events":[{'
+        '"title":"Osaka Language Exchange 国際交流",'
+        '"slug":"osaka-language-exchange",'
+        '"siteEventPageUrl":"/events/osaka-language-exchange",'
+        '"scheduling":{"config":{"startDate":"2026-07-01T10:00:00.000Z",'
+        '"endDate":"2026-07-01T12:00:00.000Z","scheduleTbd":false}},'
+        '"location":{"name":"Umeda Hall",'
+        '"fullAddress":"Osaka, Kita Ward, Umeda",'
+        '"coordinates":{"lat":34.7055,"lng":135.4983}},'
+        '"description":"Meet locals and practise."}]}}}}}'
+        '</script></body></html>'
+    )
+
+    def test_parses_wix_warmup_events(self):
+        import json
+        import re
+
+        from radar.sources import wixevents
+
+        blob = re.search(
+            r'id="wix-warmup-data"[^>]*>(.*?)</script>', self.FIXTURE, re.DOTALL
+        ).group(1)
+        evs = wixevents._find_events(json.loads(blob)["appsWarmupData"])
+        self.assertEqual(len(evs), 1)
+        ev = wixevents._to_event(evs[0], "https://example.com")
+        self.assertIsNotNone(ev)
+        self.assertEqual(ev.lat, 34.7055)
+        self.assertEqual(ev.url, "https://example.com/events/osaka-language-exchange")
+        score_event(ev, CFG)
+        self.assertIn("language_exchange", ev.matched)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
