@@ -41,6 +41,19 @@ class ScoringTests(unittest.TestCase):
         e = score_event(_evt("国際交流パーティー in 京都"), CFG)
         self.assertIn("language_exchange", e.matched)
 
+    def test_noise_words_do_not_match(self):
+        # Regression: "tax hike" and "Expo" must not trigger hiking/tech.
+        self.assertFalse(is_relevant(score_event(_evt("Kyoto tax hike takes effect"), CFG), CFG))
+        self.assertFalse(is_relevant(score_event(_evt("MGM bets big on Osaka Expo site"), CFG), CFG))
+
+    def test_manual_source_events_load(self):
+        from radar.sources import manual
+
+        evs = manual.collect(CFG)
+        self.assertTrue(evs)  # config ships with pre-filled events
+        self.assertTrue(all(e.start_dt is not None for e in evs))
+        self.assertTrue(any(e.major for e in evs))
+
     def test_major_flag_from_category(self):
         e = score_event(_evt("淀川花火大会", attendee_count=100), CFG)
         self.assertTrue(e.major)

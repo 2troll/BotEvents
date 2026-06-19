@@ -34,8 +34,10 @@ interests:
   - tag: hiking
     weight: 4
     emoji: "🥾"
+    # Note: bare "hike" removed — it matched "tax hike"/"price hike". "hiking",
+    # "trekking" and 登山/ハイキング cover the real cases without the noise.
     keywords:
-      [hiking, hike, trekking, outdoors, mountain, 登山, ハイキング, トレッキング, 山登り, 自然]
+      [hiking, trekking, outdoors, mountain, 登山, ハイキング, トレッキング, 山登り]
   - tag: horses
     weight: 4
     emoji: "🐎"
@@ -65,8 +67,10 @@ interests:
   - tag: tech
     weight: 3
     emoji: "💻"
+    # Note: bare "expo" removed — Osaka Expo 2025 saturates local news and made
+    # unrelated articles score as tech. Specific tech terms below stay accurate.
     keywords:
-      [tech, gadget, expo, startup, hackathon, テック, ガジェット, スタートアップ, 技術, ハッカソン, IT]
+      [tech, gadget, startup, hackathon, テック, ガジェット, スタートアップ, 技術, ハッカソン, IT]
   - tag: mystery
     weight: 2
     emoji: "🔮"
@@ -115,6 +119,67 @@ geocode:
 # Sources (pluggable). Disable any with `enabled: false`.
 # -----------------------------------------------------------------------------
 sources:
+  # Hand-picked, guaranteed events (no scraping, always show up). Pre-filled
+  # with famous fixed-date Kansai 2026 events. Add your own anytime — e.g. JRA
+  # race days, hikes, halal dinners — using the same fields.
+  manual:
+    enabled: true
+    events:
+      - title: "祇園祭 山鉾巡行（前祭） Gion Matsuri — Yamaboko Junko (Saki)"
+        start: "2026-07-17 09:00"
+        venue: "Shijo Street, Kyoto"
+        address: "Shijo-Karasuma, Shimogyo Ward, Kyoto"
+        lat: 35.0036
+        lng: 135.7681
+        tags: [festival, matsuri, tourguide]
+        major: true
+        price: "free"
+        url: "https://en.japantravel.com/kyoto/gion-matsuri/32852"
+        description: "Kyoto's greatest festival: the grand Yamaboko float procession."
+      - title: "祇園祭 山鉾巡行（後祭） Gion Matsuri — Yamaboko Junko (Ato)"
+        start: "2026-07-24 09:30"
+        venue: "Karasuma Oike, Kyoto"
+        address: "Karasuma Oike, Nakagyo Ward, Kyoto"
+        lat: 35.0110
+        lng: 135.7595
+        tags: [festival, matsuri, tourguide]
+        major: true
+        price: "free"
+        url: "https://en.japantravel.com/kyoto/gion-matsuri/32852"
+        description: "The second Gion Matsuri float procession (Ato Matsuri)."
+      - title: "天神祭 Tenjin Matsuri — eve (宵宮)"
+        start: "2026-07-24 16:00"
+        venue: "Osaka Tenmangu Shrine"
+        address: "2-1-8 Tenjinbashi, Kita Ward, Osaka"
+        lat: 34.6960
+        lng: 135.5126
+        tags: [festival, matsuri, tourguide]
+        major: true
+        price: "free"
+        url: "https://en.japantravel.com/osaka/tenjin-matsuri/115"
+        description: "One of Japan's three great festivals — eve celebrations."
+      - title: "天神祭 奉納花火 Tenjin Matsuri — Boat Procession & Fireworks"
+        start: "2026-07-25 18:00"
+        end: "2026-07-25 21:00"
+        venue: "Okawa River, Osaka Tenmangu"
+        address: "Kita Ward, Osaka"
+        lat: 34.6989
+        lng: 135.5150
+        tags: [festival, matsuri, fireworks, tourguide]
+        major: true
+        price: "free"
+        url: "https://en.japantravel.com/osaka/tenjin-matsuri/115"
+        description: "Land & boat processions plus ~19:30 fireworks over the Okawa river."
+      # --- Template: copy & edit to add your own (e.g. JRA horse racing) ---
+      # - title: "JRA 阪神競馬 Hanshin Racecourse — race day"
+      #   start: "2026-09-12 10:00"
+      #   venue: "Hanshin Racecourse"
+      #   address: "1-1 Komano-cho, Takarazuka, Hyogo"
+      #   lat: 34.7896
+      #   lng: 135.3596
+      #   tags: [horses]
+      #   url: "https://www.jra.go.jp/"
+
   connpass:
     # Connpass = best structured source for Kansai tech / language-exchange /
     # meetup / hiking / halal community events (strong overlap with your

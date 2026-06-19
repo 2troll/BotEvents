@@ -12,12 +12,13 @@ from typing import Callable
 
 from ..config import Config
 from ..models import Event
-from . import connpass, duckduckgo, html, ical, rss, wixevents
+from . import connpass, duckduckgo, html, ical, manual, rss, wixevents
 
 log = logging.getLogger(__name__)
 
 # name -> (enabled-check, collector)
 _REGISTRY: dict[str, Callable[[Config], list[Event]]] = {
+    "manual": manual.collect,
     "connpass": connpass.collect,
     "wixevents": wixevents.collect,
     "ical": ical.collect,
