@@ -132,19 +132,31 @@ shipped config includes the structure and commented examples.
 ## 🤖 Optional chat commands
 
 If `telegram.commands_enabled` is on, each scheduled run polls `getUpdates` and
-answers simple commands (no server needed):
+answers commands **and button taps** (no server needed):
+
+**Tappable buttons** (no typing required):
+- A persistent **bottom keyboard** with: 📅 Hoy · 🗓 Semana · 🗺 Mapa · ⭐ Grandes ·
+  📋 Menú · 🆘 Ayuda · and quick interest filters (🕌 Halal, 🥾 Senderismo,
+  🐎 Caballos, 🗣️ Idiomas, 🎆 Fuegos, 🎉 Fiesta).
+- `/menu` opens an **inline menu** with a button per interest.
+- Every event card has **🙋 Voy** (mark you're going) · **🗺 Mapa** · **🔗 Info**.
+- Telegram's **`/` menu** is registered (`setMyCommands`) for autocomplete.
 
 | Command | Does |
 |---|---|
 | `/hoy` | Events happening today |
 | `/semana` | Events in the next 7 days |
+| `/major` | Big/"major" events only |
 | `/<tag>` | Events matching an interest tag, e.g. `/halal`, `/tech`, `/fireworks` |
 | `/mapa` | Link to the live map |
+| `/menu` | Button menu |
 | `/voy <event_id>` | Mark "I'm going"; shown on the map's personal layer |
-| `/help` | List commands |
+| `/ayuda` | Help |
 
-Replies arrive on the next scheduled run, so they are not instant — this is the
-trade-off for being 100% serverless and free.
+Replies arrive on the **next scheduled run** (the workflow runs every ~2 hours),
+so they are not instant — this is the trade-off for being 100% serverless and
+free. URL buttons (🗺 Mapa, 🔗 Info) open instantly; action buttons (🙋 Voy,
+filters) are processed on the next run.
 
 ---
 

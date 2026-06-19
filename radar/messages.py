@@ -16,6 +16,70 @@ from .config import Config
 from .models import Event
 from .scoring import category_emoji, why_matches
 
+# -----------------------------------------------------------------------------
+# Tappable buttons (Telegram keyboards)
+# -----------------------------------------------------------------------------
+# Persistent bottom keyboard: each entry is (button label, command it triggers).
+# Labels are pretty; the command handler maps the label back to the command.
+QUICK_BUTTONS: list[list[tuple[str, str]]] = [
+    [("📅 Hoy", "hoy"), ("🗓 Semana", "semana"), ("🗺 Mapa", "mapa")],
+    [("⭐ Grandes", "major"), ("📋 Menú", "menu"), ("🆘 Ayuda", "help")],
+    [("🕌 Halal", "halal"), ("🥾 Senderismo", "hiking"), ("🐎 Caballos", "horses")],
+    [("🗣️ Idiomas", "language_exchange"), ("🎆 Fuegos", "fireworks"), ("🎉 Fiesta", "nightlife")],
+]
+
+# Reverse lookup: button label -> command (so taps on the bottom keyboard work).
+LABEL_TO_COMMAND: dict[str, str] = {
+    label: cmd for row in QUICK_BUTTONS for label, cmd in row
+}
+
+
+def main_reply_keyboard() -> dict:
+    """Persistent bottom keyboard shown under messages."""
+    return {
+        "keyboard": [[{"text": label} for label, _ in row] for row in QUICK_BUTTONS],
+        "resize_keyboard": True,
+        "input_field_placeholder": "Pulsa un botón o escribe un comando…",
+    }
+
+
+def menu_inline_keyboard(cfg: Config, map_url: str = "") -> dict:
+    """Inline keyboard (tap-to-act) used by /menu."""
+    rows: list[list[dict]] = [
+        [
+            {"text": "📅 Hoy", "callback_data": "cmd:hoy"},
+            {"text": "🗓 Semana", "callback_data": "cmd:semana"},
+        ],
+        [
+            {"text": "⭐ Grandes", "callback_data": "cmd:major"},
+            {"text": "🆘 Ayuda", "callback_data": "cmd:help"},
+        ],
+    ]
+    # One button per interest, in rows of three.
+    interest_btns = [
+        {
+            "text": f"{i.get('emoji', '📌')} {i.get('tag').replace('_', ' ')}",
+            "callback_data": f"cmd:{i.get('tag')}",
+        }
+        for i in cfg.interests
+    ]
+    for start in range(0, len(interest_btns), 3):
+        rows.append(interest_btns[start : start + 3])
+    if map_url:
+        rows.append([{"text": "🗺 Abrir mapa", "url": map_url}])
+    return {"inline_keyboard": rows}
+
+
+def event_inline_keyboard(event: Event, map_url_link: str) -> dict:
+    """Inline buttons under an individual event: I'm going + map + source."""
+    row: list[dict] = [
+        {"text": "🙋 Voy", "callback_data": f"voy:{event.id}"},
+        {"text": "🗺 Mapa", "url": map_url_link},
+    ]
+    if event.url:
+        row.append({"text": "🔗 Info", "url": event.url})
+    return {"inline_keyboard": [row]}
+
 
 def _esc(text: str) -> str:
     return html.escape(text or "", quote=False)

@@ -48,23 +48,39 @@ class TelegramClient:
         text: str,
         chat_id: Optional[str] = None,
         disable_preview: bool = True,
+        reply_markup: Optional[dict] = None,
     ) -> None:
-        """Send ``text``, splitting into multiple messages when too long."""
-        target = chat_id or self.chat_id
-        for chunk in _split_message(text):
-            self._send_chunk(chunk, target, disable_preview)
+        """Send ``text``, splitting into multiple messages when too long.
 
-    def _send_chunk(self, text: str, chat_id: Optional[str], disable_preview: bool) -> None:
+        ``reply_markup`` (an inline/reply keyboard) is attached to the LAST
+        chunk only, so buttons appear once beneath the full message.
+        """
+        target = chat_id or self.chat_id
+        chunks = _split_message(text)
+        for index, chunk in enumerate(chunks):
+            markup = reply_markup if index == len(chunks) - 1 else None
+            self._send_chunk(chunk, target, disable_preview, markup)
+
+    def _send_chunk(
+        self,
+        text: str,
+        chat_id: Optional[str],
+        disable_preview: bool,
+        reply_markup: Optional[dict] = None,
+    ) -> None:
         if self.dry_run or not self.configured:
             prefix = "[dry-run] " if self.dry_run else "[telegram-not-configured] "
-            print(f"\n{prefix}--- message to {chat_id} ---\n{text}\n")
+            buttons = f"\n[buttons: {reply_markup}]" if reply_markup else ""
+            print(f"\n{prefix}--- message to {chat_id} ---\n{text}{buttons}\n")
             return
-        payload = {
+        payload: dict[str, Any] = {
             "chat_id": chat_id,
             "text": text,
             "parse_mode": "HTML",
             "disable_web_page_preview": disable_preview,
         }
+        if reply_markup:
+            payload["reply_markup"] = reply_markup
         try:
             resp = requests.post(self._url("sendMessage"), json=payload, timeout=30)
             if resp.status_code == 429:
@@ -76,13 +92,43 @@ class TelegramClient:
         except requests.RequestException as exc:
             log.error("Failed to send Telegram message: %s", exc)
 
+    def answer_callback_query(self, callback_id: str, text: str = "") -> None:
+        """Acknowledge a button tap (shows a small toast in the client)."""
+        if self.dry_run or not self.configured:
+            return
+        try:
+            requests.post(
+                self._url("answerCallbackQuery"),
+                json={"callback_query_id": callback_id, "text": text},
+                timeout=15,
+            )
+        except requests.RequestException as exc:
+            log.warning("answerCallbackQuery failed: %s", exc)
+
+    def set_my_commands(self, commands: list[dict[str, str]]) -> None:
+        """Register the slash-command menu shown by the Telegram '/' button."""
+        if self.dry_run or not self.configured:
+            return
+        try:
+            requests.post(
+                self._url("setMyCommands"),
+                json={"commands": commands},
+                timeout=15,
+            )
+        except requests.RequestException as exc:
+            log.warning("setMyCommands failed: %s", exc)
+
     # -- receiving (commands) ----------------------------------------------
 
     def get_updates(self, offset: int = 0, timeout: int = 0) -> list[dict[str, Any]]:
-        """Fetch pending updates from getUpdates. Empty on dry-run/unconfigured."""
+        """Fetch pending updates (messages and button taps). Empty on dry-run."""
         if self.dry_run or not self.configured:
             return []
-        params = {"offset": offset, "timeout": timeout, "allowed_updates": ["message"]}
+        params = {
+            "offset": offset,
+            "timeout": timeout,
+            "allowed_updates": ["message", "callback_query"],
+        }
         try:
             resp = requests.get(self._url("getUpdates"), params=params, timeout=timeout + 20)
             resp.raise_for_status()

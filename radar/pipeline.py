@@ -193,7 +193,10 @@ def _maybe_send_digest(
     map_url = cfg.get("telegram", "map_public_url", default="")
     going = {e.id: state.going_count(e.id) for e in todays}
     text = format_digest(todays, cfg, going, map_url, leads=leads)
-    tg.send_message(text)
+    # Attach the persistent button keyboard so the user always has quick taps.
+    from .messages import main_reply_keyboard
+
+    tg.send_message(text, reply_markup=main_reply_keyboard())
     for lead in leads:
         lead.notified["digest_lead"] = True
         state.upsert_event(lead)

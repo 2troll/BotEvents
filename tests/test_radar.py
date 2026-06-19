@@ -146,5 +146,92 @@ class WixEventsTests(unittest.TestCase):
         self.assertIn("language_exchange", ev.matched)
 
 
+class _FakeTG:
+    """Records outgoing calls; feeds a fixed set of updates once."""
+
+    def __init__(self, updates):
+        self._updates = updates
+        self.sent = []
+        self.answered = []
+
+    def set_my_commands(self, commands):
+        pass
+
+    def get_updates(self, offset=0, timeout=0):
+        out, self._updates = self._updates, []
+        return out
+
+    def send_message(self, text, chat_id=None, disable_preview=True, reply_markup=None):
+        self.sent.append((text, reply_markup))
+
+    def answer_callback_query(self, callback_id, text=""):
+        self.answered.append(text)
+
+
+def _state():
+    from pathlib import Path
+
+    from radar.state import State
+
+    return State(
+        {
+            "version": 1,
+            "events": {},
+            "geocode_cache": {},
+            "going": {},
+            "telegram_offset": 0,
+            "last_digest_date": None,
+            "last_run_utc": None,
+        },
+        Path("/tmp/_radar_test_state.json"),
+    )
+
+
+class InteractivityTests(unittest.TestCase):
+    def test_bottom_button_label_maps_to_command(self):
+        from radar.messages import LABEL_TO_COMMAND
+
+        self.assertEqual(LABEL_TO_COMMAND["🕌 Halal"], "halal")
+        self.assertEqual(LABEL_TO_COMMAND["📅 Hoy"], "hoy")
+
+    def test_event_inline_keyboard_has_voy(self):
+        from radar.messages import event_inline_keyboard
+
+        e = _evt("Test", url="https://x.com")
+        kb = event_inline_keyboard(e, "https://maps")
+        datas = [b.get("callback_data") for b in kb["inline_keyboard"][0]]
+        self.assertIn(f"voy:{e.id}", datas)
+
+    def test_hoy_button_tap_lists_today(self):
+        from radar.commands import process_commands
+
+        today = datetime.now(TZ)
+        e = score_event(_evt("国際交流パーティー", start_dt=today), CFG)
+        update = {"update_id": 1, "message": {"text": "📅 Hoy", "chat": {"id": 9}, "from": {"id": 1}}}
+        tg = _FakeTG([update])
+        process_commands(tg, CFG, _state(), [e])
+        joined = "\n".join(t for t, _ in tg.sent)
+        self.assertIn("Eventos de hoy", joined)
+
+    def test_voy_callback_marks_going(self):
+        from radar.commands import process_commands
+
+        e = score_event(_evt("国際交流", start_dt=datetime.now(TZ)), CFG)
+        st = _state()
+        update = {
+            "update_id": 2,
+            "callback_query": {
+                "id": "cb1",
+                "data": f"voy:{e.id}",
+                "from": {"id": 7, "username": "luigi"},
+                "message": {"chat": {"id": 9}},
+            },
+        }
+        tg = _FakeTG([update])
+        process_commands(tg, CFG, st, [e])
+        self.assertEqual(st.going_count(e.id), 1)
+        self.assertTrue(tg.answered)  # a toast was sent
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

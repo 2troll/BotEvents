@@ -7,11 +7,10 @@ name: Kansai Radar
 # end keeps the repo active so the 60-day inactivity pause never disables cron.
 on:
   schedule:
-    - cron: "0 22 * * *"   # 07:00 JST — morning digest window
-    - cron: "0 1 * * *"    # 10:00 JST
-    - cron: "0 4 * * *"    # 13:00 JST
-    - cron: "0 7 * * *"    # 16:00 JST
-    - cron: "0 10 * * *"   # 19:00 JST
+    # Every 2 hours (UTC). The 22:00 UTC run = 07:00 JST is the morning-digest
+    # window; the rest poll for button taps / commands and fire reminders.
+    # Public repos get free unlimited Actions minutes, so frequent runs are fine.
+    - cron: "0 */2 * * *"
   workflow_dispatch:        # allow manual runs from the Actions tab
 
 # Allow the workflow to commit updated state.json and docs/ back to the repo.
