@@ -4714,8 +4714,8 @@
   "geocode_cache": {},
   "going": {},
   "last_collect_utc": "2026-06-22T06:48:26.636513+09:00",
-  "last_digest_date": "2026-06-21",
+  "last_digest_date": "2026-06-22",
   "last_run_utc": "2026-06-21T21:48:33.235334",
-  "telegram_offset": 553063835,
+  "telegram_offset": 553063836,
   "version": 1
 }
