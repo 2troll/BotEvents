@@ -2579,7 +2579,9 @@
         "festival",
         "nightlife"
       ],
-      "notified": {},
+      "notified": {
+        "digest_lead": true
+      },
       "price": "unknown",
       "score": 5.0,
       "source": "rss",
@@ -8335,7 +8337,7 @@
   "geocode_cache": {},
   "going": {},
   "last_collect_utc": "2026-07-03T06:39:08.889193+09:00",
-  "last_digest_date": "2026-07-02",
+  "last_digest_date": "2026-07-03",
   "last_run_utc": "2026-07-02T21:39:15.634655",
   "telegram_offset": 553063837,
   "version": 1
