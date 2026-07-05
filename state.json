@@ -4967,36 +4967,6 @@
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-07-09-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
-    "aaa68bf028665e88": {
-      "address": "",
-      "attendee_count": 0,
-      "category": "fireworks",
-      "contact": "",
-      "description": "Pick from Osaka’s top November fireworks: a beachside event, a Bruno Mars–themed show and another featuring drones",
-      "end_dt": null,
-      "first_seen": "2026-06-30T23:18:38.868988",
-      "id": "aaa68bf028665e88",
-      "lat": null,
-      "lng": null,
-      "major": true,
-      "matched": [
-        "fireworks"
-      ],
-      "notified": {
-        "digest_lead": true
-      },
-      "price": "unknown",
-      "score": 4.0,
-      "source": "rss",
-      "start_dt": null,
-      "tags": [
-        "rss",
-        "lead"
-      ],
-      "title": "Osaka is getting three fireworks festivals this autumn and tickets are out now",
-      "url": "https://www.timeout.com/osaka/news/osaka-is-getting-three-fireworks-festivals-this-autumn-and-tickets-are-out-now-100925",
-      "venue": ""
-    },
     "ad44da7ca92e8632": {
       "address": {
         "city": "渋谷区",
@@ -5731,7 +5701,9 @@
         "language_exchange",
         "nightlife"
       ],
-      "notified": {},
+      "notified": {
+        "day_before": true
+      },
       "price": "unknown",
       "score": 6.0,
       "source": "wixevents",
@@ -7549,7 +7521,9 @@
       "matched": [
         "language_exchange"
       ],
-      "notified": {},
+      "notified": {
+        "day_before": true
+      },
       "price": "unknown",
       "score": 4.0,
       "source": "wixevents",
