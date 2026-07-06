@@ -7,7 +7,7 @@
       "contact": "",
       "description": "Summer comes early with three fireworks happening back to back – one even has an extra drone show. Here are the details",
       "end_dt": null,
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "019bff1f6a8370f2",
       "lat": null,
       "lng": null,
@@ -247,7 +247,7 @@
       "contact": "",
       "description": "Enjoy Kyoto's iconic summer float parades in comfort: seats from ¥6,000, with upper tiers offering English live commentary",
       "end_dt": null,
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "0e983401d6ac2cbe",
       "lat": null,
       "lng": null,
@@ -1345,80 +1345,6 @@
       "url": "https://www.welcometokyoevents.com/events/osaka-international-meetup-in-umeda-solo-friendly-mingle-guo-ji-jiao-liuibento-da-ban-mei-tian-2026-08-02-18-00-1",
       "venue": "HUB Umeda Chayamachi branch"
     },
-    "3818d7d6b6d28579": {
-      "address": {
-        "city": "渋谷区",
-        "country": "JP",
-        "countryFullname": "日本",
-        "formattedAddress": "Japan, 〒600-8142 Kyoto, Shimogyo Ward, Nayachō, ４１８ 1階",
-        "geocode": {
-          "latitude": 34.9899106,
-          "longitude": 135.7649115
-        },
-        "postalCode": "150-0041",
-        "streetAddress": {
-          "apt": "",
-          "name": "２丁目",
-          "number": "１"
-        },
-        "subdivisions": [
-          {
-            "code": "東京都",
-            "name": "東京都",
-            "type": 1
-          },
-          {
-            "code": "渋谷区",
-            "name": "渋谷区",
-            "type": 3
-          },
-          {
-            "code": "",
-            "name": "",
-            "type": 4
-          },
-          {
-            "code": "２丁目",
-            "name": "２丁目",
-            "type": 5
-          },
-          {
-            "code": "JP",
-            "name": "日本",
-            "type": 6
-          }
-        ]
-      },
-      "attendee_count": 0,
-      "category": "language_exchange",
-      "contact": "",
-      "description": "Join a lively US Independence Day party in Kyoto! Enjoy great music, meet international and local people through our shuffle system, play games, practice languages, and make new friends from around the world.",
-      "end_dt": "2026-07-04T12:00:00+00:00",
-      "first_seen": "2026-07-04T09:56:36.754611",
-      "id": "3818d7d6b6d28579",
-      "lat": 34.9899106,
-      "lng": 135.7649115,
-      "major": false,
-      "matched": [
-        "language_exchange",
-        "nightlife"
-      ],
-      "notified": {
-        "day_before": true,
-        "intraday": true
-      },
-      "price": "unknown",
-      "score": 6.0,
-      "source": "wixevents",
-      "start_dt": "2026-07-04T09:30:00+00:00",
-      "tags": [
-        "wixevents",
-        "international"
-      ],
-      "title": "🎆 4th of July Kyoto International Party 🍾 AmericansFree 🇺🇸 関西 国際交流会 in 京都",
-      "url": "https://www.welcometokyoevents.com/events/kyoto-happy-independence-day-260704",
-      "venue": "Kyoto Cheeky Pub House"
-    },
     "3aa14f05b28a0262": {
       "address": {
         "city": "大阪市",
@@ -1637,81 +1563,6 @@
       "title": "🎉Osaka International Party in Shinsaibashi🍾 Shuffle & Mingle 🌏 大阪 国際交流パーティー",
       "url": "https://www.welcometokyoevents.com/events/osaka-international-party-in-shinsaibashi-shuffle-mingle-da-ban-guo-ji-jiao-liupati-2026-07-18-19-30",
       "venue": "Bar Moon Walk, Shinsaibashi Nagabori "
-    },
-    "407204599f63d172": {
-      "address": {
-        "city": "Osaka",
-        "country": "JP",
-        "countryFullname": "Japan",
-        "formattedAddress": "2-chōme-6-7 Kitakyūhōjimachi, Chuo Ward, Osaka, 541-0057, Japan",
-        "geocode": {
-          "latitude": 34.6797932,
-          "longitude": 135.5037083
-        },
-        "postalCode": "541-0057",
-        "streetAddress": {
-          "apt": "7",
-          "name": "2-chōme",
-          "number": "6"
-        },
-        "subdivision": "27",
-        "subdivisions": [
-          {
-            "code": "27",
-            "name": "Osaka",
-            "type": 1
-          },
-          {
-            "code": "Osaka",
-            "name": "Osaka",
-            "type": 3
-          },
-          {
-            "code": "Chuo Ward",
-            "name": "Chuo Ward",
-            "type": 4
-          },
-          {
-            "code": "2-chōme",
-            "name": "2-chōme",
-            "type": 5
-          },
-          {
-            "code": "JP",
-            "name": "Japan",
-            "type": 6
-          }
-        ]
-      },
-      "attendee_count": 0,
-      "category": "language_exchange",
-      "contact": "",
-      "description": "Join a lively US Independence Day party in Osaka! Enjoy great music, meet international and local people through our shuffle system, play games, practice languages, and make new friends from around the world.",
-      "end_dt": "2026-07-04T13:00:00+00:00",
-      "first_seen": "2026-07-04T12:47:58.518024",
-      "id": "407204599f63d172",
-      "lat": 34.6797932,
-      "lng": 135.5037083,
-      "major": false,
-      "matched": [
-        "language_exchange",
-        "nightlife"
-      ],
-      "notified": {
-        "day_before": true,
-        "intraday": true
-      },
-      "price": "unknown",
-      "score": 6.0,
-      "source": "wixevents",
-      "start_dt": "2026-07-04T10:30:00+00:00",
-      "tags": [
-        "wixevents",
-        "international"
-      ],
-      "title": "🇺🇸 AmericansFree 🥳 Happy US Independence Day 🎆 International Party in Osaka 🍾 大阪 国際交流会 in 本町",
-      "url": "https://www.welcometokyoevents.com/events/osaka-happy-independence-day-260704",
-      "venue": "GRANBELL HOTEL, Osaka Honmachi"
     },
     "409a5ceaad6fe084": {
       "address": {
@@ -2077,7 +1928,7 @@
       "contact": "",
       "description": "Skip the crowds and the waiting – get the best views of the thrilling procession this September with seats from ¥3,300",
       "end_dt": null,
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "4a856dcaa08f9ec3",
       "lat": null,
       "lng": null,
@@ -2531,7 +2382,7 @@
       "contact": "",
       "description": "Umeda Yukata Festival runs for three weeks in July, but don’t miss the street party at Umekita Plaza on July 10 and 11",
       "end_dt": null,
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "55ceb1cf6d8bb36f",
       "lat": null,
       "lng": null,
@@ -3350,7 +3201,7 @@
       "contact": "",
       "description": "The newly increased accommodation tax in Kyoto went into effect on March 1, making it the highest tourist tax in Japan",
       "end_dt": null,
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "6b3f2f627822f165",
       "lat": null,
       "lng": null,
@@ -3380,7 +3231,7 @@
       "contact": "",
       "description": "What’s on in Kyoto this year: geisha dance festival, immersive art in a plum garden, rare temple openings, exhibitions and more",
       "end_dt": null,
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "6c1b9f13ced07689",
       "lat": null,
       "lng": null,
@@ -3623,7 +3474,7 @@
       "contact": "",
       "description": "From global icons to boundary-pushing newcomers, this year’s edition turns the idea of the ‘edge’ into something vividly, urgently human",
       "end_dt": null,
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "772e32320749e51b",
       "lat": null,
       "lng": null,
@@ -3788,80 +3639,6 @@
       "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-15-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
-    },
-    "7ef778eebe6e6f69": {
-      "address": {
-        "city": "渋谷区",
-        "country": "JP",
-        "countryFullname": "日本",
-        "formattedAddress": "Japan, 〒600-8142 Kyoto, Shimogyo Ward, Nayachō, ４１８ 1階",
-        "geocode": {
-          "latitude": 34.9899106,
-          "longitude": 135.7649115
-        },
-        "postalCode": "150-0041",
-        "streetAddress": {
-          "apt": "",
-          "name": "２丁目",
-          "number": "１"
-        },
-        "subdivisions": [
-          {
-            "code": "東京都",
-            "name": "東京都",
-            "type": 1
-          },
-          {
-            "code": "渋谷区",
-            "name": "渋谷区",
-            "type": 3
-          },
-          {
-            "code": "",
-            "name": "",
-            "type": 4
-          },
-          {
-            "code": "２丁目",
-            "name": "２丁目",
-            "type": 5
-          },
-          {
-            "code": "JP",
-            "name": "日本",
-            "type": 6
-          }
-        ]
-      },
-      "attendee_count": 0,
-      "category": "language_exchange",
-      "contact": "",
-      "description": "Join our relaxed international exchange event in Kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
-      "end_dt": "2026-07-04T12:00:00+00:00",
-      "first_seen": "2026-06-30T08:20:17.561211",
-      "id": "7ef778eebe6e6f69",
-      "lat": 34.9899106,
-      "lng": 135.7649115,
-      "major": false,
-      "matched": [
-        "language_exchange",
-        "nightlife"
-      ],
-      "notified": {
-        "day_before": true,
-        "intraday": true
-      },
-      "price": "unknown",
-      "score": 6.0,
-      "source": "wixevents",
-      "start_dt": "2026-07-04T09:30:00+00:00",
-      "tags": [
-        "wixevents",
-        "international"
-      ],
-      "title": "🍹 Kyoto Solo Friendly International Party - Meet & Chat 🍻 関西 国際交流会 in 京都",
-      "url": "https://www.welcometokyoevents.com/events/kyoto-solo-friendly-international-party-meet-chat-guan-xi-guo-ji-jiao-liu-hui-in-jing-dou-2026-07-04-18-30",
-      "venue": "Kyoto Cheeky Pub House"
     },
     "82f1b3ccb7b5da7a": {
       "address": {
@@ -4298,7 +4075,7 @@
       "contact": "",
       "description": "Land & boat processions plus ~19:30 fireworks over the Okawa river.",
       "end_dt": "2026-07-25T21:00:00",
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "90bc086cf36be2c6",
       "lat": 34.6989,
       "lng": 135.515,
@@ -4396,80 +4173,6 @@
       "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-07-12-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
-    },
-    "925bb5c3c6f50a61": {
-      "address": {
-        "city": "渋谷区",
-        "country": "JP",
-        "countryFullname": "日本",
-        "formattedAddress": "Japan, 〒542-0083 Osaka, Chuo Ward, Higashishinsaibashi, 1-chōme−12−１９ エイトビルヂング3F",
-        "geocode": {
-          "latitude": 34.6746037,
-          "longitude": 135.5036988
-        },
-        "postalCode": "150-0043",
-        "streetAddress": {
-          "apt": "3f",
-          "name": "１丁目",
-          "number": "３"
-        },
-        "subdivisions": [
-          {
-            "code": "東京都",
-            "name": "東京都",
-            "type": 1
-          },
-          {
-            "code": "渋谷区",
-            "name": "渋谷区",
-            "type": 3
-          },
-          {
-            "code": "",
-            "name": "",
-            "type": 4
-          },
-          {
-            "code": "１丁目",
-            "name": "１丁目",
-            "type": 5
-          },
-          {
-            "code": "JP",
-            "name": "日本",
-            "type": 6
-          }
-        ]
-      },
-      "attendee_count": 0,
-      "category": "language_exchange",
-      "contact": "",
-      "description": "Join a lively US Independence Day party in Osaka! Enjoy great music, meet international and local people through our shuffle system, play games, practice languages, and make new friends from around the world.",
-      "end_dt": "2026-07-04T13:00:00+00:00",
-      "first_seen": "2026-06-28T23:44:50.910466",
-      "id": "925bb5c3c6f50a61",
-      "lat": 34.6746037,
-      "lng": 135.5036988,
-      "major": false,
-      "matched": [
-        "language_exchange",
-        "nightlife"
-      ],
-      "notified": {
-        "day_before": true,
-        "intraday": true
-      },
-      "price": "unknown",
-      "score": 6.0,
-      "source": "wixevents",
-      "start_dt": "2026-07-04T10:30:00+00:00",
-      "tags": [
-        "wixevents",
-        "international"
-      ],
-      "title": "🇺🇸 AmericansFree 🥳 Happy US Independence Day 🎆 International Party in Osaka 🍾 大阪 国際交流会 in 心斎橋",
-      "url": "https://www.welcometokyoevents.com/events/osaka-happy-independence-day-260704",
-      "venue": "Bar Moon Walk, Shinsaibashi Nagabori"
     },
     "928757df8a64204d": {
       "address": {
@@ -4621,7 +4324,7 @@
       "contact": "",
       "description": "One of Japan's three great festivals — eve celebrations.",
       "end_dt": null,
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "991a4f1fcd0dfd4b",
       "lat": 34.696,
       "lng": 135.5126,
@@ -4653,7 +4356,7 @@
       "contact": "",
       "description": "Hop on the viral Sagano Romantic Train as it travels through forest illuminations along rural Kyoto’s Hozugawa River Valley",
       "end_dt": null,
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "9ae561169d6ccba8",
       "lat": null,
       "lng": null,
@@ -4899,7 +4602,7 @@
       "contact": "",
       "description": "The second Gion Matsuri float procession (Ato Matsuri).",
       "end_dt": null,
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "a7a0b7f835a00f0f",
       "lat": 35.011,
       "lng": 135.7595,
@@ -5218,7 +4921,7 @@
       "contact": "",
       "description": "The vibrant colours along this iconic spring hiking trail will reach peak bloom from late April through Golden Week 2026",
       "end_dt": null,
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "b3b18cf2cd594ee7",
       "lat": null,
       "lng": null,
@@ -5745,80 +5448,6 @@
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-07-07-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
-    "b89a6c62fe6d82bc": {
-      "address": {
-        "city": "渋谷区",
-        "country": "JP",
-        "countryFullname": "日本",
-        "formattedAddress": "Japan, 〒600-8142 Kyoto, Shimogyo Ward, Nayachō, ４１８ 1階",
-        "geocode": {
-          "latitude": 34.9899106,
-          "longitude": 135.7649115
-        },
-        "postalCode": "150-0041",
-        "streetAddress": {
-          "apt": "",
-          "name": "２丁目",
-          "number": "１"
-        },
-        "subdivisions": [
-          {
-            "code": "東京都",
-            "name": "東京都",
-            "type": 1
-          },
-          {
-            "code": "渋谷区",
-            "name": "渋谷区",
-            "type": 3
-          },
-          {
-            "code": "",
-            "name": "",
-            "type": 4
-          },
-          {
-            "code": "２丁目",
-            "name": "２丁目",
-            "type": 5
-          },
-          {
-            "code": "JP",
-            "name": "日本",
-            "type": 6
-          }
-        ]
-      },
-      "attendee_count": 0,
-      "category": "language_exchange",
-      "contact": "",
-      "description": "Join our relaxed international exchange event in kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
-      "end_dt": "2026-07-04T12:00:00+00:00",
-      "first_seen": "2026-06-26T04:44:03.233183",
-      "id": "b89a6c62fe6d82bc",
-      "lat": 34.9899106,
-      "lng": 135.7649115,
-      "major": false,
-      "matched": [
-        "language_exchange",
-        "nightlife"
-      ],
-      "notified": {
-        "day_before": true,
-        "intraday": true
-      },
-      "price": "unknown",
-      "score": 6.0,
-      "source": "wixevents",
-      "start_dt": "2026-07-04T09:30:00+00:00",
-      "tags": [
-        "wixevents",
-        "international"
-      ],
-      "title": "🍹 Kyoto International Party Solo Friendly Expats & Locals🌍一人参加| 関西 国際交流パーティー京都",
-      "url": "https://www.welcometokyoevents.com/events/kyoto-international-party-solo-friendly-expats-locals-yi-ren-can-jia-guan-xi-guo-ji-jiao-liupati-jing-dou-2026-07-04-18",
-      "venue": "Kyoto Cheeky pub house"
-    },
     "b8e6a67f6d9d319c": {
       "address": {
         "city": "Kyoto",
@@ -6254,7 +5883,7 @@
       "contact": "",
       "description": "At Kyoto Kameoka Balloon Festival 2026, take a hot air balloon ride and enjoy a nighttime light-up amid cherry blossoms",
       "end_dt": null,
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "bd5d58c8ca92ae21",
       "lat": null,
       "lng": null,
@@ -7640,7 +7269,7 @@
       "contact": "",
       "description": "Kyoto's greatest festival: the grand Yamaboko float procession.",
       "end_dt": null,
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "f60d6980f505c502",
       "lat": 35.0036,
       "lng": 135.7681,
@@ -7887,7 +7516,7 @@
       "contact": "",
       "description": "ReCase will pick up your luggage from hotels and homes in Japan, and upcycle it for reuse to help reduce waste",
       "end_dt": null,
-      "first_seen": "2026-07-06T11:00:27.902408",
+      "first_seen": "2026-07-06T14:36:59.870547",
       "id": "ffdde645fe4a4be6",
       "lat": null,
       "lng": null,
@@ -7913,9 +7542,9 @@
   },
   "geocode_cache": {},
   "going": {},
-  "last_collect_utc": "2026-07-06T20:00:20.576886+09:00",
+  "last_collect_utc": "2026-07-06T23:36:52.427177+09:00",
   "last_digest_date": "2026-07-06",
-  "last_run_utc": "2026-07-06T11:00:27.919229",
+  "last_run_utc": "2026-07-06T14:36:59.887989",
   "telegram_offset": 553063837,
   "version": 1
 }
