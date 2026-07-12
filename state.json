@@ -3740,7 +3740,8 @@
         "nightlife"
       ],
       "notified": {
-        "day_before": true
+        "day_before": true,
+        "intraday": true
       },
       "price": "unknown",
       "score": 6.0,
