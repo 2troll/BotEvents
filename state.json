@@ -2600,79 +2600,6 @@
       "url": "https://www.timeout.com/osaka/things-to-do/best-art-and-cultural-events-in-kyoto-to-look-forward-to-in-2026",
       "venue": ""
     },
-    "6c9ddf9fcbb96e6d": {
-      "address": {
-        "city": "渋谷区",
-        "country": "JP",
-        "countryFullname": "日本",
-        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
-        "geocode": {
-          "latitude": 34.70622640000001,
-          "longitude": 135.4989557
-        },
-        "postalCode": "150-0043",
-        "streetAddress": {
-          "apt": "3f",
-          "name": "１丁目",
-          "number": "３"
-        },
-        "subdivisions": [
-          {
-            "code": "東京都",
-            "name": "東京都",
-            "type": 1
-          },
-          {
-            "code": "渋谷区",
-            "name": "渋谷区",
-            "type": 3
-          },
-          {
-            "code": "",
-            "name": "",
-            "type": 4
-          },
-          {
-            "code": "１丁目",
-            "name": "１丁目",
-            "type": 5
-          },
-          {
-            "code": "JP",
-            "name": "日本",
-            "type": 6
-          }
-        ]
-      },
-      "attendee_count": 0,
-      "category": "language_exchange",
-      "contact": "",
-      "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
-      "end_dt": "2026-07-12T11:30:00+00:00",
-      "first_seen": "2026-07-12T09:22:14.133697",
-      "id": "6c9ddf9fcbb96e6d",
-      "lat": 34.70622640000001,
-      "lng": 135.4989557,
-      "major": false,
-      "matched": [
-        "language_exchange"
-      ],
-      "notified": {
-        "day_before": true,
-        "intraday": true
-      },
-      "price": "unknown",
-      "score": 4.0,
-      "source": "wixevents",
-      "start_dt": "2026-07-12T09:00:00+00:00",
-      "tags": [
-        "wixevents",
-        "international"
-      ],
-      "title": "🌏Osaka International Meetup in Umeda🍸 Solo Friendly & Mingle  国際交流イベント 大阪 梅田",
-      "url": "https://www.welcometokyoevents.com/events/osaka-international-meetup-in-umeda-solo-friendly-mingle-guo-ji-jiao-liuibento-da-ban-mei-tian-2026-07-12-18-00-1",
-      "venue": "HUB Umeda Chayamachi branch"
-    },
     "743cea331c0b75b3": {
       "address": {
         "city": "大阪市",
@@ -4288,7 +4215,8 @@
         "nightlife"
       ],
       "notified": {
-        "day_before": true
+        "day_before": true,
+        "intraday": true
       },
       "price": "unknown",
       "score": 6.0,
