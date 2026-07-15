@@ -688,7 +688,9 @@
         "language_exchange",
         "nightlife"
       ],
-      "notified": {},
+      "notified": {
+        "day_before": true
+      },
       "price": "unknown",
       "score": 6.0,
       "source": "wixevents",
@@ -3549,7 +3551,9 @@
         "language_exchange",
         "nightlife"
       ],
-      "notified": {},
+      "notified": {
+        "day_before": true
+      },
       "price": "unknown",
       "score": 6.0,
       "source": "wixevents",
@@ -3968,7 +3972,9 @@
         "language_exchange",
         "nightlife"
       ],
-      "notified": {},
+      "notified": {
+        "day_before": true
+      },
       "price": "unknown",
       "score": 6.0,
       "source": "wixevents",
@@ -5751,6 +5757,7 @@
         "festival"
       ],
       "notified": {
+        "d1": true,
         "d30": true,
         "d7": true
       },
