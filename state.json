@@ -5459,41 +5459,6 @@
       "url": "https://www.welcometokyoevents.com/events/kyoto-solo-friendly-international-party-meet-chat-guan-xi-guo-ji-jiao-liu-hui-in-jing-dou-2026-08-01-18-30-1",
       "venue": "Kyoto Cheeky Pub House"
     },
-    "f60d6980f505c502": {
-      "address": "Shijo-Karasuma, Shimogyo Ward, Kyoto",
-      "attendee_count": 0,
-      "category": "festival",
-      "contact": "",
-      "description": "Kyoto's greatest festival: the grand Yamaboko float procession.",
-      "end_dt": null,
-      "first_seen": "2026-07-18T23:31:48.695601",
-      "id": "f60d6980f505c502",
-      "lat": 35.0036,
-      "lng": 135.7681,
-      "major": true,
-      "matched": [
-        "festival"
-      ],
-      "notified": {
-        "d1": true,
-        "d30": true,
-        "d7": true,
-        "intraday": true
-      },
-      "price": "free",
-      "score": 3.0,
-      "source": "manual",
-      "start_dt": "2026-07-17T09:00:00",
-      "tags": [
-        "festival",
-        "matsuri",
-        "tourguide",
-        "manual"
-      ],
-      "title": "祇園祭 山鉾巡行（前祭） Gion Matsuri — Yamaboko Junko (Saki)",
-      "url": "https://en.japantravel.com/kyoto/gion-matsuri/32852",
-      "venue": "Shijo Street, Kyoto"
-    },
     "f8787ac945bb35b7": {
       "address": {
         "city": "大阪市",
