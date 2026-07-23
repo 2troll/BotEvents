@@ -2876,7 +2876,8 @@
       "notified": {
         "d1": true,
         "d30": true,
-        "d7": true
+        "d7": true,
+        "intraday": true
       },
       "price": "free",
       "score": 3.0,
