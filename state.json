@@ -1,5 +1,146 @@
 {
   "events": {
+    "002af25a4330276d": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒550-0014 Osaka, Nishi Ward, Kitahorie, 1-chōme−2−２７ B1",
+        "geocode": {
+          "latitude": 34.6733348,
+          "longitude": 135.4971292
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Looking for an international party in Osaka?\nJoin our Mingle & Social event in Shinsaibashi — a fun, English-friendly meetup for locals and travelers in their 20s and 30s. Meet new people, enjoy drinks, play games, and connect with others!",
+      "end_dt": "2026-08-28T13:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "002af25a4330276d",
+      "lat": 34.6733348,
+      "lng": 135.4971292,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-28T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻 Osaka 20s & 30s International Party in Shinsaibashi  🤩 大阪 国際交流パーティー 心斎橋",
+      "url": "https://www.welcometokyoevents.com/events/osaka-20s-30s-international-party-in-shinsaibashi-da-ban-guo-ji-jiao-liupati-xin-zhai-qiao-2026-08-28-19-30-1",
+      "venue": "Absinthe Underground, Shinsaibashi"
+    },
+    "00cb155e41c49ea1": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
+      "end_dt": "2026-08-25T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "00cb155e41c49ea1",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-25T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
+      "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-08-25-19-30",
+      "venue": "HUB Umeda Chayamachi store, Umeda"
+    },
     "019bff1f6a8370f2": {
       "address": "",
       "attendee_count": 0,
@@ -7,7 +148,7 @@
       "contact": "",
       "description": "Summer comes early with three fireworks happening back to back – one even has an extra drone show. Here are the details",
       "end_dt": null,
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "019bff1f6a8370f2",
       "lat": null,
       "lng": null,
@@ -108,7 +249,7 @@
       "contact": "",
       "description": "Enjoy Kyoto's iconic summer float parades in comfort: seats from ¥6,000, with upper tiers offering English live commentary",
       "end_dt": null,
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "0e983401d6ac2cbe",
       "lat": null,
       "lng": null,
@@ -130,6 +271,218 @@
       "title": "Paid seats for the 2026 Kyoto Gion Festival processions are now on sale",
       "url": "https://www.timeout.com/osaka/news/paid-seats-for-kyoto-gion-festival-processions-now-on-sale-060326",
       "venue": ""
+    },
+    "102266e9fa6e3acb": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
+      "end_dt": "2026-09-14T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "102266e9fa6e3acb",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-14T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
+      "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-09-14-19-30",
+      "venue": "HUB Umeda Chayamachi store, Umeda"
+    },
+    "1106884fa97ddebd": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
+      "end_dt": "2026-09-15T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "1106884fa97ddebd",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-15T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
+      "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-09-15-19-30",
+      "venue": "HUB Umeda Chayamachi store, Umeda"
+    },
+    "11675d1870a06666": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-10T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "11675d1870a06666",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-10T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-10-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
     "139f576876dc9f10": {
       "address": {
@@ -181,7 +534,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-05T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "139f576876dc9f10",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -202,6 +555,76 @@
       "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-05-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "17a643f0981bc82b": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
+      "end_dt": "2026-09-08T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "17a643f0981bc82b",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-08T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
+      "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-09-08-19-30",
+      "venue": "HUB Umeda Chayamachi store, Umeda"
     },
     "194f49f36388ca72": {
       "address": {
@@ -252,7 +675,7 @@
       "contact": "",
       "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
       "end_dt": "2026-08-04T12:30:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "194f49f36388ca72",
       "lat": 34.70622640000001,
       "lng": 135.4989557,
@@ -271,6 +694,76 @@
       ],
       "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
       "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-08-04-19-30",
+      "venue": "HUB Umeda Chayamachi store, Umeda"
+    },
+    "1bdc401546366d7b": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
+      "end_dt": "2026-08-31T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "1bdc401546366d7b",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-31T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
+      "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-08-31-19-30",
       "venue": "HUB Umeda Chayamachi store, Umeda"
     },
     "1c355d476e8f44ee": {
@@ -347,6 +840,150 @@
       "url": "https://www.welcometokyoevents.com/events/osaka-20s-30s-international-party-in-shinsaibashi-da-ban-guo-ji-jiao-liupati-xin-zhai-qiao-2026-07-31-19-30",
       "venue": "Absinthe Underground, Shinsaibashi"
     },
+    "21e7af7bbf8e2daa": {
+      "address": {
+        "city": "Kyoto",
+        "country": "JP",
+        "countryFullname": "Japan",
+        "formattedAddress": "2-238, Yamazakicho, Nakagyo Ward, Kyoto,  Japan, B1F",
+        "geocode": {
+          "latitude": 35.0073782,
+          "longitude": 135.7692904
+        },
+        "postalCode": "238",
+        "streetAddress": {
+          "apt": "",
+          "name": "",
+          "number": ""
+        },
+        "subdivision": "26",
+        "subdivisions": [
+          {
+            "code": "26",
+            "name": "Kyoto",
+            "type": 1
+          },
+          {
+            "code": "Kyoto",
+            "name": "Kyoto",
+            "type": 3
+          },
+          {
+            "code": "Nakagyo Ward",
+            "name": "Nakagyo Ward",
+            "type": 4
+          },
+          {
+            "code": "Yamazakicho",
+            "name": "Yamazakicho",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "Japan",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Join our relaxed international exchange event in Kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
+      "end_dt": "2026-09-11T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "21e7af7bbf8e2daa",
+      "lat": 35.0073782,
+      "lng": 135.7692904,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-11T10:00:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Kyoto Only 20s & 30s Make Friends International Party 国際交流パーティー京都",
+      "url": "https://www.welcometokyoevents.com/events/kyoto-only-20s-30s-make-friends-international-party-guo-ji-jiao-liupati-jing-dou-2026-09-11-19-00",
+      "venue": "STONE BAR AND GRILL Kyoto"
+    },
+    "224600fd3c21b4df": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-08T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "224600fd3c21b4df",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-08T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-08-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
     "24e1f8496e4af082": {
       "address": {
         "city": "渋谷区",
@@ -396,7 +1033,7 @@
       "contact": "",
       "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
       "end_dt": "2026-08-05T13:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "24e1f8496e4af082",
       "lat": 34.672888,
       "lng": 135.4985705,
@@ -417,6 +1054,293 @@
       "title": "🏯 Osaka Solo Friendly International Party - Meet & Chat 🍻 大阪 国際交流会 in 心斎橋",
       "url": "https://www.welcometokyoevents.com/events/osaka-solo-friendly-international-party-meet-chat-da-ban-guo-ji-jiao-liu-hui-in-xin-zhai-qiao-2026-08-05-19-30",
       "venue": "Cafe Dining Safari, Shinsaibashi"
+    },
+    "257ff5d291dfebd2": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-14T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "257ff5d291dfebd2",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-14T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-14-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "28ad5fca2af626cc": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-15T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "28ad5fca2af626cc",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-15T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-15-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "29df5234bdc91883": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒600-8142 Kyoto, Shimogyo Ward, Nayachō, ４１８ 1階",
+        "geocode": {
+          "latitude": 34.9899106,
+          "longitude": 135.7649115
+        },
+        "postalCode": "150-0041",
+        "streetAddress": {
+          "apt": "",
+          "name": "２丁目",
+          "number": "１"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Join our relaxed international exchange event in Kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
+      "end_dt": "2026-08-22T12:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "29df5234bdc91883",
+      "lat": 34.9899106,
+      "lng": 135.7649115,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-22T09:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍹 Kyoto Solo Friendly International Party - Meet & Chat 🍻 関西 国際交流会 in 京都",
+      "url": "https://www.welcometokyoevents.com/events/kyoto-solo-friendly-international-party-meet-chat-guan-xi-guo-ji-jiao-liu-hui-in-jing-dou-2026-08-22-18-30-1",
+      "venue": "Kyoto Cheeky Pub House"
+    },
+    "29fdd879a32cca6a": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-23T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "29fdd879a32cca6a",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-23T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-23-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
     "2b86f8ea8c32599e": {
       "address": {
@@ -468,7 +1392,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-07T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "2b86f8ea8c32599e",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -562,6 +1486,78 @@
       "url": "https://www.welcometokyoevents.com/events/osaka-international-meetup-in-umeda-solo-friendly-mingle-guo-ji-jiao-liuibento-da-ban-mei-tian-2026-08-02-18-00-1",
       "venue": "HUB Umeda Chayamachi branch"
     },
+    "35d3f1e230da0841": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-04T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "35d3f1e230da0841",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-04T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-04-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
     "3aa14f05b28a0262": {
       "address": {
         "city": "大阪市",
@@ -612,7 +1608,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-06T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "3aa14f05b28a0262",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -633,6 +1629,77 @@
       "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-06-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "3bedd6d63f3389b1": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0086 Osaka, Chuo Ward, Nishishinsaibashi, 1-chōme−9−１６ 大京心斎橋第２ビル ２F",
+        "geocode": {
+          "latitude": 34.672888,
+          "longitude": 135.4985705
+        },
+        "postalCode": "150-0041",
+        "streetAddress": {
+          "apt": "",
+          "name": "２丁目",
+          "number": "１"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
+      "end_dt": "2026-08-26T13:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "3bedd6d63f3389b1",
+      "lat": 34.672888,
+      "lng": 135.4985705,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-26T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🏯 Osaka Solo Friendly International Party - Meet & Chat 🍻 大阪 国際交流会 in 心斎橋",
+      "url": "https://www.welcometokyoevents.com/events/osaka-solo-friendly-international-party-meet-chat-da-ban-guo-ji-jiao-liu-hui-in-xin-zhai-qiao-2026-08-26-19-30",
+      "venue": "Cafe Dining Safari, Shinsaibashi"
     },
     "3ebee1365cf6bea2": {
       "address": {
@@ -684,7 +1751,7 @@
       "contact": "",
       "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
       "end_dt": "2026-08-11T11:30:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "3ebee1365cf6bea2",
       "lat": 34.67344990000001,
       "lng": 135.4971506,
@@ -705,6 +1772,78 @@
       "title": "🎉Osaka International Party in Shinsaibashi 🍾 Shuffle & Mingle 🌏 大阪 国際交流パーティー",
       "url": "https://www.welcometokyoevents.com/events/osaka-international-party-in-shinsaibashi-shuffle-mingle-da-ban-guo-ji-jiao-liupati",
       "venue": "Absinthe Underground, Shinsaibashi"
+    },
+    "41e4aab674f30155": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-25T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "41e4aab674f30155",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-25T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-25-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
     "425841447182e434": {
       "address": {
@@ -756,7 +1895,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-01T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "425841447182e434",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -778,6 +1917,78 @@
       ],
       "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-01-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "44fcd9febb0225d8": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-17T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "44fcd9febb0225d8",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-17T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-17-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
     "4530329c21ece6f5": {
@@ -829,7 +2040,7 @@
       "contact": "",
       "description": "Looking for an international party in Osaka?\nJoin our Mingle & Social event in Shinsaibashi — a fun, English-friendly meetup for locals and travelers in their 20s and 30s. Meet new people, enjoy drinks, play games, and connect with others!",
       "end_dt": "2026-08-14T13:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "4530329c21ece6f5",
       "lat": 34.6733348,
       "lng": 135.4971292,
@@ -851,6 +2062,76 @@
       "url": "https://www.welcometokyoevents.com/events/osaka-20s-30s-international-party-in-shinsaibashi-da-ban-guo-ji-jiao-liupati-xin-zhai-qiao-2026-08-14-19-30-1",
       "venue": "Absinthe Underground, Shinsaibashi"
     },
+    "49d293ba4c9bbc09": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
+      "end_dt": "2026-08-23T11:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "49d293ba4c9bbc09",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-23T09:00:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🌏Osaka International Meetup in Umeda🍸 Solo Friendly & Mingle  国際交流イベント 大阪 梅田",
+      "url": "https://www.welcometokyoevents.com/events/osaka-international-meetup-in-umeda-solo-friendly-mingle-guo-ji-jiao-liuibento-da-ban-mei-tian-2026-08-23-18-00-1",
+      "venue": "HUB Umeda Chayamachi branch"
+    },
     "4a856dcaa08f9ec3": {
       "address": "",
       "attendee_count": 0,
@@ -858,7 +2139,7 @@
       "contact": "",
       "description": "Skip the crowds and the waiting – get the best views of the thrilling procession this September with seats from ¥3,300",
       "end_dt": null,
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "4a856dcaa08f9ec3",
       "lat": null,
       "lng": null,
@@ -930,7 +2211,7 @@
       "contact": "",
       "description": "Join our relaxed international exchange event in Kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
       "end_dt": "2026-08-08T12:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "4b06830f2f65d225",
       "lat": 34.9899106,
       "lng": 135.7649115,
@@ -1001,7 +2282,7 @@
       "contact": "",
       "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
       "end_dt": "2026-08-09T11:30:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "4bdad97f581b2c75",
       "lat": 34.70622640000001,
       "lng": 135.4989557,
@@ -1021,6 +2302,150 @@
       "title": "🌏Osaka International Meetup in Umeda🍸 Solo Friendly & Mingle  国際交流イベント 大阪 梅田",
       "url": "https://www.welcometokyoevents.com/events/osaka-international-meetup-in-umeda-solo-friendly-mingle-guo-ji-jiao-liuibento-da-ban-mei-tian-2026-08-09-18-00-1",
       "venue": "HUB Umeda Chayamachi branch"
+    },
+    "4c82ac989be4cc9a": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-06T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "4c82ac989be4cc9a",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-06T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-06-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "4eeca08503d287bf": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-18T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "4eeca08503d287bf",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-18T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-18-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
     "5142a1b411359d9b": {
       "address": {
@@ -1097,6 +2522,146 @@
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-07-31-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
+    "51ff91f3df19c1d7": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0012 Osaka, Kita Ward, Shibata, 2-chōme−5−１２ 長岡ビル",
+        "geocode": {
+          "latitude": 34.7067461,
+          "longitude": 135.4960837
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
+      "end_dt": "2026-08-20T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "51ff91f3df19c1d7",
+      "lat": 34.7067461,
+      "lng": 135.4960837,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-20T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
+      "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-08-20-19-30-1",
+      "venue": "Cafenne, Umeda"
+    },
+    "526c9c5b813007ca": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
+      "end_dt": "2026-09-06T11:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "526c9c5b813007ca",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-06T09:00:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🌏Osaka International Meetup in Umeda🍸 Solo Friendly & Mingle  国際交流イベント 大阪 梅田",
+      "url": "https://www.welcometokyoevents.com/events/osaka-international-meetup-in-umeda-solo-friendly-mingle-guo-ji-jiao-liuibento-da-ban-mei-tian-2026-09-06-18-00-1",
+      "venue": "HUB Umeda Chayamachi branch"
+    },
     "53a95031c0840526": {
       "address": {
         "city": "渋谷区",
@@ -1146,7 +2711,7 @@
       "contact": "",
       "description": "Looking for an international party in Osaka?\nJoin our Mingle & Social event in Shinsaibashi — a fun, English-friendly meetup for locals and travelers in their 20s and 30s. Meet new people, enjoy drinks, play games, and connect with others!",
       "end_dt": "2026-08-07T13:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "53a95031c0840526",
       "lat": 34.6733348,
       "lng": 135.4971292,
@@ -1218,7 +2783,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-08T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "53ec9eaf192b9e52",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -1240,6 +2805,218 @@
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-08-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
+    "5421cc622d9489c5": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
+      "end_dt": "2026-08-24T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "5421cc622d9489c5",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-24T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
+      "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-08-24-19-30",
+      "venue": "HUB Umeda Chayamachi store, Umeda"
+    },
+    "548ec7e203103b14": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-16T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "548ec7e203103b14",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-16T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-16-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "54a74e697beefd4d": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
+      "end_dt": "2026-09-01T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "54a74e697beefd4d",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-01T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
+      "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-09-01-19-30",
+      "venue": "HUB Umeda Chayamachi store, Umeda"
+    },
     "55ceb1cf6d8bb36f": {
       "address": "",
       "attendee_count": 0,
@@ -1247,7 +3024,7 @@
       "contact": "",
       "description": "Umeda Yukata Festival runs for three weeks in July, but don’t miss the street party at Umekita Plaza on July 10 and 11",
       "end_dt": null,
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "55ceb1cf6d8bb36f",
       "lat": null,
       "lng": null,
@@ -1321,7 +3098,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-03T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "56ba94d4c221f5f7",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -1342,6 +3119,149 @@
       "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-03-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "5948dd68daaad4f9": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-11T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "5948dd68daaad4f9",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-11T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-11-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "5bee544f00a7596b": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒600-8142 Kyoto, Shimogyo Ward, Nayachō, ４１８ 1階",
+        "geocode": {
+          "latitude": 34.9899106,
+          "longitude": 135.7649115
+        },
+        "postalCode": "150-0041",
+        "streetAddress": {
+          "apt": "",
+          "name": "２丁目",
+          "number": "１"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Join our relaxed international exchange event in Kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
+      "end_dt": "2026-09-12T12:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "5bee544f00a7596b",
+      "lat": 34.9899106,
+      "lng": 135.7649115,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-12T09:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍹 Kyoto Solo Friendly International Party - Meet & Chat 🍻 関西 国際交流会 in 京都",
+      "url": "https://www.welcometokyoevents.com/events/kyoto-solo-friendly-international-party-meet-chat-guan-xi-guo-ji-jiao-liu-hui-in-jing-dou-2026-09-12-18-30-1",
+      "venue": "Kyoto Cheeky Pub House"
     },
     "5c925dcf8ba7e79f": {
       "address": {
@@ -1393,7 +3313,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-02T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "5c925dcf8ba7e79f",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -1415,6 +3335,78 @@
       ],
       "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-02-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "5cf9b2c4628227ae": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-07T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "5cf9b2c4628227ae",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-07T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-07-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
     "5d13eb87d2c07a6a": {
@@ -1466,7 +3458,7 @@
       "contact": "",
       "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
       "end_dt": "2026-08-13T12:30:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "5d13eb87d2c07a6a",
       "lat": 34.7067461,
       "lng": 135.4960837,
@@ -1487,6 +3479,148 @@
       "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-08-13-19-30-1",
       "venue": "Cafenne, Umeda"
     },
+    "5f57e5bc3117d02a": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-28T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "5f57e5bc3117d02a",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-28T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-28-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "66997825e265d225": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
+      "end_dt": "2026-08-18T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "66997825e265d225",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-18T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
+      "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-08-18-19-30",
+      "venue": "HUB Umeda Chayamachi store, Umeda"
+    },
     "6b3f2f627822f165": {
       "address": "",
       "attendee_count": 0,
@@ -1494,7 +3628,7 @@
       "contact": "",
       "description": "The newly increased accommodation tax in Kyoto went into effect on March 1, making it the highest tourist tax in Japan",
       "end_dt": null,
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "6b3f2f627822f165",
       "lat": null,
       "lng": null,
@@ -1524,7 +3658,7 @@
       "contact": "",
       "description": "What’s on in Kyoto this year: geisha dance festival, immersive art in a plum garden, rare temple openings, exhibitions and more",
       "end_dt": null,
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "6c1b9f13ced07689",
       "lat": null,
       "lng": null,
@@ -1597,7 +3731,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-12T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "743cea331c0b75b3",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -1626,7 +3760,7 @@
       "contact": "",
       "description": "From global icons to boundary-pushing newcomers, this year’s edition turns the idea of the ‘edge’ into something vividly, urgently human",
       "end_dt": null,
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "772e32320749e51b",
       "lat": null,
       "lng": null,
@@ -1648,6 +3782,292 @@
       "title": "Kyotographie 2026 review: 8 reasons why Kyoto’s photography festival still sets the pace",
       "url": "https://www.timeout.com/osaka/news/kyotographie-2026-review-8-reasons-why-kyotos-photography-festival-still-sets-the-pace-042226",
       "venue": ""
+    },
+    "77e8fe05f18a111b": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-27T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "77e8fe05f18a111b",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-27T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-27-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "786426a9e1c2b5df": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-21T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "786426a9e1c2b5df",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-21T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-21-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "7ab893784e5a6213": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
+      "end_dt": "2026-09-07T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "7ab893784e5a6213",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-07T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
+      "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-09-07-19-30",
+      "venue": "HUB Umeda Chayamachi store, Umeda"
+    },
+    "7ce8ee8300b4221b": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-01T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "7ce8ee8300b4221b",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-01T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-01-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
     "7dc0e6fe74459cd0": {
       "address": {
@@ -1699,7 +4119,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-15T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "7dc0e6fe74459cd0",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -1720,6 +4140,290 @@
       "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-15-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "7ffd5f7b1347e8eb": {
+      "address": {
+        "city": "Kyoto",
+        "country": "JP",
+        "countryFullname": "Japan",
+        "formattedAddress": "2-238, Yamazakicho, Nakagyo Ward, Kyoto,  Japan, B1F",
+        "geocode": {
+          "latitude": 35.0073782,
+          "longitude": 135.7692904
+        },
+        "postalCode": "238",
+        "streetAddress": {
+          "apt": "",
+          "name": "",
+          "number": ""
+        },
+        "subdivision": "26",
+        "subdivisions": [
+          {
+            "code": "26",
+            "name": "Kyoto",
+            "type": 1
+          },
+          {
+            "code": "Kyoto",
+            "name": "Kyoto",
+            "type": 3
+          },
+          {
+            "code": "Nakagyo Ward",
+            "name": "Nakagyo Ward",
+            "type": 4
+          },
+          {
+            "code": "Yamazakicho",
+            "name": "Yamazakicho",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "Japan",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Join our relaxed international exchange event in Kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
+      "end_dt": "2026-08-21T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "7ffd5f7b1347e8eb",
+      "lat": 35.0073782,
+      "lng": 135.7692904,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-21T10:00:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Kyoto Only 20s & 30s Make Friends International Party 国際交流パーティー京都",
+      "url": "https://www.welcometokyoevents.com/events/kyoto-only-20s-30s-make-friends-international-party-guo-ji-jiao-liupati-jing-dou-2026-08-21-19-00",
+      "venue": "STONE BAR AND GRILL Kyoto"
+    },
+    "801c7d78cc6aeb67": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
+      "end_dt": "2026-08-16T11:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "801c7d78cc6aeb67",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-16T09:00:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🌏Osaka International Meetup in Umeda🍸 Solo Friendly & Mingle  国際交流イベント 大阪 梅田",
+      "url": "https://www.welcometokyoevents.com/events/osaka-international-meetup-in-umeda-solo-friendly-mingle-guo-ji-jiao-liuibento-da-ban-mei-tian-2026-08-16-18-00-1",
+      "venue": "HUB Umeda Chayamachi branch"
+    },
+    "810a17cbd95846bf": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒600-8142 Kyoto, Shimogyo Ward, Nayachō, ４１８ 1階",
+        "geocode": {
+          "latitude": 34.9899106,
+          "longitude": 135.7649115
+        },
+        "postalCode": "150-0041",
+        "streetAddress": {
+          "apt": "",
+          "name": "２丁目",
+          "number": "１"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Join our relaxed international exchange event in Kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
+      "end_dt": "2026-09-05T12:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "810a17cbd95846bf",
+      "lat": 34.9899106,
+      "lng": 135.7649115,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-05T09:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍹 Kyoto Solo Friendly International Party - Meet & Chat 🍻 関西 国際交流会 in 京都",
+      "url": "https://www.welcometokyoevents.com/events/kyoto-solo-friendly-international-party-meet-chat-guan-xi-guo-ji-jiao-liu-hui-in-jing-dou-2026-09-05-18-30-1",
+      "venue": "Kyoto Cheeky Pub House"
+    },
+    "833a9a7d2be8d826": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0083 Osaka, Chuo Ward, Higashishinsaibashi, 1-chōme−12−１９ エイトビルヂング3F",
+        "geocode": {
+          "latitude": 34.6746037,
+          "longitude": 135.5036988
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Looking for an international party in Osaka? Join our Shuffle & Mingle event in Shinsaibashi. Meet locals and travelers, enjoy drinks, games, and English-friendly conversation.",
+      "end_dt": "2026-09-12T13:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "833a9a7d2be8d826",
+      "lat": 34.6746037,
+      "lng": 135.5036988,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-12T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🎉Osaka International Party in Shinsaibashi🍾 Shuffle & Mingle 🌏 大阪 国際交流パーティー",
+      "url": "https://www.welcometokyoevents.com/events/osaka-international-party-in-shinsaibashi-shuffle-mingle-da-ban-guo-ji-jiao-liupati-2026-09-12-19-30",
+      "venue": "Bar Moon Walk, Shinsaibashi Nagabori "
     },
     "86b70b87dd7034c9": {
       "address": {
@@ -1844,7 +4548,7 @@
       "contact": "",
       "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
       "end_dt": "2026-08-02T10:30:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "8817a511e54cae87",
       "lat": 34.6797932,
       "lng": 135.5037083,
@@ -1866,6 +4570,78 @@
       "title": "🌏Osaka Rooftop International Meetup 🍸 Solo Friendly & Mingle  国際交流イベント 大阪 本町",
       "url": "https://www.welcometokyoevents.com/events/osaka-rooftop-international-meetup-solo-friendly-mingle-guo-ji-jiao-liuibento-da-ban-ben-ting-2026-08-02-17-00",
       "venue": "GRANBELL HOTEL, Osaka Honmachi"
+    },
+    "8a55b8cf15c186a8": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-12T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "8a55b8cf15c186a8",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-12T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-12-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
     "8ab62b680e961ad6": {
       "address": {
@@ -1937,6 +4713,78 @@
       "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-08-11-19-30",
       "venue": "HUB Umeda Chayamachi store, Umeda"
     },
+    "8bde460407985e8a": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-29T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "8bde460407985e8a",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-29T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-29-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
     "8f04f53294af1f5e": {
       "address": {
         "city": "大阪市",
@@ -1987,7 +4835,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-11T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "8f04f53294af1f5e",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -2084,6 +4932,360 @@
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-07-30-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
+    "93a7296b7c485700": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0086 Osaka, Chuo Ward, Nishishinsaibashi, 1-chōme−9−１６ 大京心斎橋第２ビル ２F",
+        "geocode": {
+          "latitude": 34.672888,
+          "longitude": 135.4985705
+        },
+        "postalCode": "150-0041",
+        "streetAddress": {
+          "apt": "",
+          "name": "２丁目",
+          "number": "１"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
+      "end_dt": "2026-09-02T13:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "93a7296b7c485700",
+      "lat": 34.672888,
+      "lng": 135.4985705,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-02T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🏯 Osaka Solo Friendly International Party - Meet & Chat 🍻 大阪 国際交流会 in 心斎橋",
+      "url": "https://www.welcometokyoevents.com/events/osaka-solo-friendly-international-party-meet-chat-da-ban-guo-ji-jiao-liu-hui-in-xin-zhai-qiao-2026-09-02-19-30",
+      "venue": "Cafe Dining Safari, Shinsaibashi"
+    },
+    "962e1e9f02d34c8d": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0012 Osaka, Kita Ward, Shibata, 2-chōme−5−１２ 長岡ビル",
+        "geocode": {
+          "latitude": 34.7067461,
+          "longitude": 135.4960837
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
+      "end_dt": "2026-08-27T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "962e1e9f02d34c8d",
+      "lat": 34.7067461,
+      "lng": 135.4960837,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-27T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
+      "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-08-27-19-30-1",
+      "venue": "Cafenne, Umeda"
+    },
+    "ac2d202d1aaa6d63": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒600-8142 Kyoto, Shimogyo Ward, Nayachō, ４１８ 1階",
+        "geocode": {
+          "latitude": 34.9899106,
+          "longitude": 135.7649115
+        },
+        "postalCode": "150-0041",
+        "streetAddress": {
+          "apt": "",
+          "name": "２丁目",
+          "number": "１"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Join our relaxed international exchange event in Kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
+      "end_dt": "2026-08-29T12:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "ac2d202d1aaa6d63",
+      "lat": 34.9899106,
+      "lng": 135.7649115,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-29T09:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍹 Kyoto Solo Friendly International Party - Meet & Chat 🍻 関西 国際交流会 in 京都",
+      "url": "https://www.welcometokyoevents.com/events/kyoto-solo-friendly-international-party-meet-chat-guan-xi-guo-ji-jiao-liu-hui-in-jing-dou-2026-08-29-18-30-1",
+      "venue": "Kyoto Cheeky Pub House"
+    },
+    "ae6a7ad190a16b9e": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
+      "end_dt": "2026-09-13T11:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "ae6a7ad190a16b9e",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-13T09:00:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🌏Osaka International Meetup in Umeda🍸 Solo Friendly & Mingle  国際交流イベント 大阪 梅田",
+      "url": "https://www.welcometokyoevents.com/events/osaka-international-meetup-in-umeda-solo-friendly-mingle-guo-ji-jiao-liuibento-da-ban-mei-tian-2026-09-13-18-00-1",
+      "venue": "HUB Umeda Chayamachi branch"
+    },
+    "b144bbc2763f3621": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-20T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "b144bbc2763f3621",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-20T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-20-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
     "b276433ab2250038": {
       "address": {
         "city": "渋谷区",
@@ -2133,7 +5335,7 @@
       "contact": "",
       "description": "Looking for an international party in Osaka? Join our Shuffle & Mingle event in Shinsaibashi. Meet locals and travelers, enjoy drinks, games, and English-friendly conversation.",
       "end_dt": "2026-08-08T13:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "b276433ab2250038",
       "lat": 34.6746037,
       "lng": 135.5036988,
@@ -2155,37 +5357,7 @@
       "url": "https://www.welcometokyoevents.com/events/osaka-international-party-in-shinsaibashi-shuffle-mingle-da-ban-guo-ji-jiao-liupati-2026-08-08-19-30",
       "venue": "Bar Moon Walk, Shinsaibashi Nagabori "
     },
-    "b3b18cf2cd594ee7": {
-      "address": "",
-      "attendee_count": 0,
-      "category": "hiking",
-      "contact": "",
-      "description": "The vibrant colours along this iconic spring hiking trail will reach peak bloom from late April through Golden Week 2026",
-      "end_dt": null,
-      "first_seen": "2026-07-31T14:59:17.173427",
-      "id": "b3b18cf2cd594ee7",
-      "lat": null,
-      "lng": null,
-      "major": false,
-      "matched": [
-        "hiking"
-      ],
-      "notified": {
-        "digest_lead": true
-      },
-      "price": "unknown",
-      "score": 4.0,
-      "source": "rss",
-      "start_dt": null,
-      "tags": [
-        "rss",
-        "lead"
-      ],
-      "title": "Famous Azalea Roll at Mt. Ikoma in Higashi-Osaka is now blooming",
-      "url": "https://www.timeout.com/osaka/news/famous-azalea-roll-at-mt-ikoma-in-higashi-osaka-is-now-blooming-042226",
-      "venue": ""
-    },
-    "b4e331cd2039cad0": {
+    "b33a23c486b0eb47": {
       "address": {
         "city": "大阪市",
         "country": "JP",
@@ -2234,9 +5406,9 @@
       "category": "language_exchange",
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
-      "end_dt": "2026-07-29T17:00:00+00:00",
-      "first_seen": "2026-07-29T14:42:43.151842",
-      "id": "b4e331cd2039cad0",
+      "end_dt": "2026-08-19T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "b33a23c486b0eb47",
       "lat": 34.6685723,
       "lng": 135.4992319,
       "major": false,
@@ -2244,21 +5416,48 @@
         "language_exchange",
         "nightlife"
       ],
-      "notified": {
-        "day_before": true,
-        "intraday": true
-      },
+      "notified": {},
       "price": "unknown",
       "score": 6.0,
       "source": "wixevents",
-      "start_dt": "2026-07-29T13:30:00+00:00",
+      "start_dt": "2026-08-19T13:30:00+00:00",
       "tags": [
         "wixevents",
         "international"
       ],
       "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
-      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-07-29-22-30",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-19-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "b3b18cf2cd594ee7": {
+      "address": "",
+      "attendee_count": 0,
+      "category": "hiking",
+      "contact": "",
+      "description": "The vibrant colours along this iconic spring hiking trail will reach peak bloom from late April through Golden Week 2026",
+      "end_dt": null,
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "b3b18cf2cd594ee7",
+      "lat": null,
+      "lng": null,
+      "major": false,
+      "matched": [
+        "hiking"
+      ],
+      "notified": {
+        "digest_lead": true
+      },
+      "price": "unknown",
+      "score": 4.0,
+      "source": "rss",
+      "start_dt": null,
+      "tags": [
+        "rss",
+        "lead"
+      ],
+      "title": "Famous Azalea Roll at Mt. Ikoma in Higashi-Osaka is now blooming",
+      "url": "https://www.timeout.com/osaka/news/famous-azalea-roll-at-mt-ikoma-in-higashi-osaka-is-now-blooming-042226",
+      "venue": ""
     },
     "b609bc52c0ca28ae": {
       "address": {
@@ -2309,7 +5508,7 @@
       "contact": "",
       "description": "Looking for an international party in Osaka? Join our Shuffle & Mingle event in Shinsaibashi. Meet locals and travelers, enjoy drinks, games, and English-friendly conversation.",
       "end_dt": "2026-08-15T13:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "b609bc52c0ca28ae",
       "lat": 34.6746037,
       "lng": 135.5036988,
@@ -2330,6 +5529,76 @@
       "title": "🎉Osaka International Party in Shinsaibashi🍾 Shuffle & Mingle 🌏 大阪 国際交流パーティー",
       "url": "https://www.welcometokyoevents.com/events/osaka-international-party-in-shinsaibashi-shuffle-mingle-da-ban-guo-ji-jiao-liupati-2026-08-15-19-30",
       "venue": "Bar Moon Walk, Shinsaibashi Nagabori "
+    },
+    "b67a668e1e85c403": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0012 Osaka, Kita Ward, Shibata, 2-chōme−5−１２ 長岡ビル",
+        "geocode": {
+          "latitude": 34.7067461,
+          "longitude": 135.4960837
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
+      "end_dt": "2026-09-10T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "b67a668e1e85c403",
+      "lat": 34.7067461,
+      "lng": 135.4960837,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-10T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
+      "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-09-10-19-30-1",
+      "venue": "Cafenne, Umeda"
     },
     "b68acaa5df7cc1d4": {
       "address": {
@@ -2406,6 +5675,77 @@
       "url": "https://www.welcometokyoevents.com/events/kyoto-only-20s-30s-make-friends-international-party-guo-ji-jiao-liupati-jing-dou-2026-07-31-19-00",
       "venue": "STONE BAR AND GRILL Kyoto"
     },
+    "b826832bc27855f5": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0083 Osaka, Chuo Ward, Higashishinsaibashi, 1-chōme−12−１９ エイトビルヂング3F",
+        "geocode": {
+          "latitude": 34.6746037,
+          "longitude": 135.5036988
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Looking for an international party in Osaka? Join our Shuffle & Mingle event in Shinsaibashi. Meet locals and travelers, enjoy drinks, games, and English-friendly conversation.",
+      "end_dt": "2026-08-22T13:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "b826832bc27855f5",
+      "lat": 34.6746037,
+      "lng": 135.5036988,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-22T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🎉Osaka International Party in Shinsaibashi🍾 Shuffle & Mingle 🌏 大阪 国際交流パーティー",
+      "url": "https://www.welcometokyoevents.com/events/osaka-international-party-in-shinsaibashi-shuffle-mingle-da-ban-guo-ji-jiao-liupati-2026-08-22-19-30",
+      "venue": "Bar Moon Walk, Shinsaibashi Nagabori "
+    },
     "b8e6a67f6d9d319c": {
       "address": {
         "city": "Kyoto",
@@ -2456,7 +5796,7 @@
       "contact": "",
       "description": "Join our relaxed international exchange event in Kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
       "end_dt": "2026-08-14T12:30:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "b8e6a67f6d9d319c",
       "lat": 35.0073782,
       "lng": 135.7692904,
@@ -2527,7 +5867,7 @@
       "contact": "",
       "description": "Join our relaxed international exchange event in Kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
       "end_dt": "2026-08-15T12:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "b9cdd191431be154",
       "lat": 34.9899106,
       "lng": 135.7649115,
@@ -2548,6 +5888,150 @@
       "title": "🍹 Kyoto Solo Friendly International Party - Meet & Chat 🍻 関西 国際交流会 in 京都",
       "url": "https://www.welcometokyoevents.com/events/kyoto-solo-friendly-international-party-meet-chat-guan-xi-guo-ji-jiao-liu-hui-in-jing-dou-2026-08-15-18-30-1",
       "venue": "Kyoto Cheeky Pub House"
+    },
+    "ba53cbec56610fc3": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-30T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "ba53cbec56610fc3",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-30T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-30-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "ba86e754ac0cceb6": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-31T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "ba86e754ac0cceb6",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-31T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-31-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
     "bc3cae69c8ac4011": {
       "address": {
@@ -2599,7 +6083,7 @@
       "contact": "",
       "description": "Join our relaxed international exchange event in Kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
       "end_dt": "2026-08-07T12:30:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "bc3cae69c8ac4011",
       "lat": 35.0073782,
       "lng": 135.7692904,
@@ -2620,6 +6104,78 @@
       "title": "Kyoto Only 20s & 30s Make Friends International Party 国際交流パーティー京都",
       "url": "https://www.welcometokyoevents.com/events/kyoto-only-20s-30s-make-friends-international-party-guo-ji-jiao-liupati-jing-dou-2026-08-07-19-00",
       "venue": "STONE BAR AND GRILL Kyoto"
+    },
+    "bcebfc638c1368f3": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-26T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "bcebfc638c1368f3",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-26T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-26-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
     "bcfa1211c0dfa1a3": {
       "address": {
@@ -2698,7 +6254,7 @@
       "contact": "",
       "description": "At Kyoto Kameoka Balloon Festival 2026, take a hot air balloon ride and enjoy a nighttime light-up amid cherry blossoms",
       "end_dt": null,
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "bd5d58c8ca92ae21",
       "lat": null,
       "lng": null,
@@ -2772,7 +6328,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-14T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "bf0e8152d45cc65a",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -2793,6 +6349,76 @@
       "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-14-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "c13b66e970a09ced": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
+      "end_dt": "2026-08-17T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "c13b66e970a09ced",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-17T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
+      "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-08-17-19-30",
+      "venue": "HUB Umeda Chayamachi store, Umeda"
     },
     "ca8c5f505ae4cbe1": {
       "address": {
@@ -2844,7 +6470,7 @@
       "contact": "",
       "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
       "end_dt": "2026-08-03T12:30:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "ca8c5f505ae4cbe1",
       "lat": 34.708582,
       "lng": 135.4965572,
@@ -2864,6 +6490,78 @@
       "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
       "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-08-03-19-30",
       "venue": "Cocodoco, Umeda"
+    },
+    "ca936160aed3a5ce": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-05T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "ca936160aed3a5ce",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-05T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-05-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
     "cc12b6215de204fc": {
       "address": {
@@ -2915,7 +6613,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-04T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "cc12b6215de204fc",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -2935,6 +6633,150 @@
       ],
       "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-04-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "cd3a638e76a6aafa": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-09T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "cd3a638e76a6aafa",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-09T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-09-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "cdabde045b986605": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-03T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "cdabde045b986605",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-03T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-03-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
     "cfdfde069e21bf8e": {
@@ -2986,7 +6828,7 @@
       "contact": "",
       "description": "Join our Osaka Make Friends Party — a friendly and relaxed meetup where locals, travelers, expats, and working holiday participants come together to chat, have fun, and make new friends! 🍻",
       "end_dt": "2026-08-10T13:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "cfdfde069e21bf8e",
       "lat": 34.70622640000001,
       "lng": 135.4989557,
@@ -3007,6 +6849,219 @@
       "title": "🎉 Osaka International Make Friends Party in Umeda🍻 大阪 国際交流パーティー 梅田🌏",
       "url": "https://www.welcometokyoevents.com/events/osaka-international-make-friends-party-in-umeda-da-ban-guo-ji-jiao-liupati-mei-tian-2",
       "venue": "HUB Umeda Chayamachi store, Umeda"
+    },
+    "d10d0bb4a8837009": {
+      "address": {
+        "city": "Kyoto",
+        "country": "JP",
+        "countryFullname": "Japan",
+        "formattedAddress": "2-238, Yamazakicho, Nakagyo Ward, Kyoto,  Japan, B1F",
+        "geocode": {
+          "latitude": 35.0073782,
+          "longitude": 135.7692904
+        },
+        "postalCode": "238",
+        "streetAddress": {
+          "apt": "",
+          "name": "",
+          "number": ""
+        },
+        "subdivision": "26",
+        "subdivisions": [
+          {
+            "code": "26",
+            "name": "Kyoto",
+            "type": 1
+          },
+          {
+            "code": "Kyoto",
+            "name": "Kyoto",
+            "type": 3
+          },
+          {
+            "code": "Nakagyo Ward",
+            "name": "Nakagyo Ward",
+            "type": 4
+          },
+          {
+            "code": "Yamazakicho",
+            "name": "Yamazakicho",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "Japan",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Join our relaxed international exchange event in Kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
+      "end_dt": "2026-09-04T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "d10d0bb4a8837009",
+      "lat": 35.0073782,
+      "lng": 135.7692904,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-04T10:00:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Kyoto Only 20s & 30s Make Friends International Party 国際交流パーティー京都",
+      "url": "https://www.welcometokyoevents.com/events/kyoto-only-20s-30s-make-friends-international-party-guo-ji-jiao-liupati-jing-dou-2026-09-04-19-00",
+      "venue": "STONE BAR AND GRILL Kyoto"
+    },
+    "d56baebdae088c92": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0083 Osaka, Chuo Ward, Higashishinsaibashi, 1-chōme−12−１９ エイトビルヂング3F",
+        "geocode": {
+          "latitude": 34.6746037,
+          "longitude": 135.5036988
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Looking for an international party in Osaka? Join our Shuffle & Mingle event in Shinsaibashi. Meet locals and travelers, enjoy drinks, games, and English-friendly conversation.",
+      "end_dt": "2026-08-29T13:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "d56baebdae088c92",
+      "lat": 34.6746037,
+      "lng": 135.5036988,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-29T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🎉Osaka International Party in Shinsaibashi🍾 Shuffle & Mingle 🌏 大阪 国際交流パーティー",
+      "url": "https://www.welcometokyoevents.com/events/osaka-international-party-in-shinsaibashi-shuffle-mingle-da-ban-guo-ji-jiao-liupati-2026-08-29-19-30",
+      "venue": "Bar Moon Walk, Shinsaibashi Nagabori "
+    },
+    "d5f12bfe70b6227a": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0012 Osaka, Kita Ward, Shibata, 2-chōme−5−１２ 長岡ビル",
+        "geocode": {
+          "latitude": 34.7067461,
+          "longitude": 135.4960837
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
+      "end_dt": "2026-09-03T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "d5f12bfe70b6227a",
+      "lat": 34.7067461,
+      "lng": 135.4960837,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-03T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
+      "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-09-03-19-30-1",
+      "venue": "Cafenne, Umeda"
     },
     "d7794e4fbc260ea7": {
       "address": {
@@ -3057,7 +7112,7 @@
       "contact": "",
       "description": "Looking for an international party in Osaka? Join our Shuffle & Mingle event in Shinsaibashi. Meet locals and travelers, enjoy drinks, games, and English-friendly conversation.",
       "end_dt": "2026-08-01T13:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "d7794e4fbc260ea7",
       "lat": 34.6746037,
       "lng": 135.5036988,
@@ -3080,6 +7135,78 @@
       "title": "🎉Osaka International Party in Shinsaibashi🍾 Shuffle & Mingle 🌏 大阪 国際交流パーティー",
       "url": "https://www.welcometokyoevents.com/events/osaka-international-party-in-shinsaibashi-shuffle-mingle-da-ban-guo-ji-jiao-liupati-2026-08-01-19-30",
       "venue": "Bar Moon Walk, Shinsaibashi Nagabori "
+    },
+    "d8bd41be11113748": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-22T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "d8bd41be11113748",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-22T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-22-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
     "d9b556dbc2c108fc": {
       "address": {
@@ -3130,7 +7257,7 @@
       "contact": "",
       "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
       "end_dt": "2026-08-12T13:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "d9b556dbc2c108fc",
       "lat": 34.672888,
       "lng": 135.4985705,
@@ -3150,6 +7277,292 @@
       ],
       "title": "🏯 Osaka Solo Friendly International Party - Meet & Chat 🍻 大阪 国際交流会 in 心斎橋",
       "url": "https://www.welcometokyoevents.com/events/osaka-solo-friendly-international-party-meet-chat-da-ban-guo-ji-jiao-liu-hui-in-xin-zhai-qiao-2026-08-12-19-30",
+      "venue": "Cafe Dining Safari, Shinsaibashi"
+    },
+    "daebe3062c53ad76": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒550-0014 Osaka, Nishi Ward, Kitahorie, 1-chōme−2−２７ B1",
+        "geocode": {
+          "latitude": 34.6733348,
+          "longitude": 135.4971292
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Looking for an international party in Osaka?\nJoin our Mingle & Social event in Shinsaibashi — a fun, English-friendly meetup for locals and travelers in their 20s and 30s. Meet new people, enjoy drinks, play games, and connect with others!",
+      "end_dt": "2026-08-21T13:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "daebe3062c53ad76",
+      "lat": 34.6733348,
+      "lng": 135.4971292,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-21T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻 Osaka 20s & 30s International Party in Shinsaibashi  🤩 大阪 国際交流パーティー 心斎橋",
+      "url": "https://www.welcometokyoevents.com/events/osaka-20s-30s-international-party-in-shinsaibashi-da-ban-guo-ji-jiao-liupati-xin-zhai-qiao-2026-08-21-19-30-1",
+      "venue": "Absinthe Underground, Shinsaibashi"
+    },
+    "defb150c01abf9ec": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-08-24T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "defb150c01abf9ec",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-24T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-24-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "e0260f857e6db001": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-13T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "e0260f857e6db001",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-13T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-13-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "e48b9046760b0e34": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0086 Osaka, Chuo Ward, Nishishinsaibashi, 1-chōme−9−１６ 大京心斎橋第２ビル ２F",
+        "geocode": {
+          "latitude": 34.672888,
+          "longitude": 135.4985705
+        },
+        "postalCode": "150-0041",
+        "streetAddress": {
+          "apt": "",
+          "name": "２丁目",
+          "number": "１"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
+      "end_dt": "2026-09-09T13:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "e48b9046760b0e34",
+      "lat": 34.672888,
+      "lng": 135.4985705,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-09T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🏯 Osaka Solo Friendly International Party - Meet & Chat 🍻 大阪 国際交流会 in 心斎橋",
+      "url": "https://www.welcometokyoevents.com/events/osaka-solo-friendly-international-party-meet-chat-da-ban-guo-ji-jiao-liu-hui-in-xin-zhai-qiao-2026-09-09-19-30",
       "venue": "Cafe Dining Safari, Shinsaibashi"
     },
     "e4919c0e5269b609": {
@@ -3202,7 +7615,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-13T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "e4919c0e5269b609",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -3223,6 +7636,77 @@
       "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-13-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
+    },
+    "eaa7b752789f16d1": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0086 Osaka, Chuo Ward, Nishishinsaibashi, 1-chōme−9−１６ 大京心斎橋第２ビル ２F",
+        "geocode": {
+          "latitude": 34.672888,
+          "longitude": 135.4985705
+        },
+        "postalCode": "150-0041",
+        "streetAddress": {
+          "apt": "",
+          "name": "２丁目",
+          "number": "１"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
+      "end_dt": "2026-08-19T13:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "eaa7b752789f16d1",
+      "lat": 34.672888,
+      "lng": 135.4985705,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-19T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🏯 Osaka Solo Friendly International Party - Meet & Chat 🍻 大阪 国際交流会 in 心斎橋",
+      "url": "https://www.welcometokyoevents.com/events/osaka-solo-friendly-international-party-meet-chat-da-ban-guo-ji-jiao-liu-hui-in-xin-zhai-qiao-2026-08-19-19-30",
+      "venue": "Cafe Dining Safari, Shinsaibashi"
     },
     "eccba27441595dea": {
       "address": {
@@ -3273,7 +7757,7 @@
       "contact": "",
       "description": "Let's speak English or Japanese more easily!🇺🇸🇬🇧😀🇯🇵\nIs there a place where you can speak the Japanese you have learned? Would you like to learn more Japanese? Would you like to have fun conversations over a few drinks? \nYou're more than welcome to come in by yourself🙌",
       "end_dt": "2026-08-06T12:30:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "eccba27441595dea",
       "lat": 34.7067461,
       "lng": 135.4960837,
@@ -3293,6 +7777,290 @@
       "title": "Osaka Language Exchange (English & Nihongo) at Umeda 英語＆日本語 国際交流イベント 大阪",
       "url": "https://www.welcometokyoevents.com/events/osaka-language-exchange-english-nihongo-at-umeda-ying-yu-ri-ben-yu-guo-ji-jiao-liuibento-da-ban-2026-08-06-19-30-1",
       "venue": "Cafenne, Umeda"
+    },
+    "ed018e5b77bcef48": {
+      "address": {
+        "city": "Kyoto",
+        "country": "JP",
+        "countryFullname": "Japan",
+        "formattedAddress": "2-238, Yamazakicho, Nakagyo Ward, Kyoto,  Japan, B1F",
+        "geocode": {
+          "latitude": 35.0073782,
+          "longitude": 135.7692904
+        },
+        "postalCode": "238",
+        "streetAddress": {
+          "apt": "",
+          "name": "",
+          "number": ""
+        },
+        "subdivision": "26",
+        "subdivisions": [
+          {
+            "code": "26",
+            "name": "Kyoto",
+            "type": 1
+          },
+          {
+            "code": "Kyoto",
+            "name": "Kyoto",
+            "type": 3
+          },
+          {
+            "code": "Nakagyo Ward",
+            "name": "Nakagyo Ward",
+            "type": 4
+          },
+          {
+            "code": "Yamazakicho",
+            "name": "Yamazakicho",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "Japan",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Join our relaxed international exchange event in Kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
+      "end_dt": "2026-08-28T12:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "ed018e5b77bcef48",
+      "lat": 35.0073782,
+      "lng": 135.7692904,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-28T10:00:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "Kyoto Only 20s & 30s Make Friends International Party 国際交流パーティー京都",
+      "url": "https://www.welcometokyoevents.com/events/kyoto-only-20s-30s-make-friends-international-party-guo-ji-jiao-liupati-jing-dou-2026-08-28-19-00",
+      "venue": "STONE BAR AND GRILL Kyoto"
+    },
+    "ee943d1d33e6e3d5": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒550-0014 Osaka, Nishi Ward, Kitahorie, 1-chōme−2−２７ B1",
+        "geocode": {
+          "latitude": 34.6733348,
+          "longitude": 135.4971292
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Looking for an international party in Osaka?\nJoin our Mingle & Social event in Shinsaibashi — a fun, English-friendly meetup for locals and travelers in their 20s and 30s. Meet new people, enjoy drinks, play games, and connect with others!",
+      "end_dt": "2026-09-11T13:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "ee943d1d33e6e3d5",
+      "lat": 34.6733348,
+      "lng": 135.4971292,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-11T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻 Osaka 20s & 30s International Party in Shinsaibashi  🤩 大阪 国際交流パーティー 心斎橋",
+      "url": "https://www.welcometokyoevents.com/events/osaka-20s-30s-international-party-in-shinsaibashi-da-ban-guo-ji-jiao-liupati-xin-zhai-qiao-2026-09-11-19-30-1",
+      "venue": "Absinthe Underground, Shinsaibashi"
+    },
+    "f15c8470b523accb": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒550-0014 Osaka, Nishi Ward, Kitahorie, 1-chōme−2−２７ B1",
+        "geocode": {
+          "latitude": 34.6733348,
+          "longitude": 135.4971292
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Looking for an international party in Osaka?\nJoin our Mingle & Social event in Shinsaibashi — a fun, English-friendly meetup for locals and travelers in their 20s and 30s. Meet new people, enjoy drinks, play games, and connect with others!",
+      "end_dt": "2026-09-04T13:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "f15c8470b523accb",
+      "lat": 34.6733348,
+      "lng": 135.4971292,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-04T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻 Osaka 20s & 30s International Party in Shinsaibashi  🤩 大阪 国際交流パーティー 心斎橋",
+      "url": "https://www.welcometokyoevents.com/events/osaka-20s-30s-international-party-in-shinsaibashi-da-ban-guo-ji-jiao-liupati-xin-zhai-qiao-2026-09-04-19-30-1",
+      "venue": "Absinthe Underground, Shinsaibashi"
+    },
+    "f26387bf5fb2c756": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒530-0013 Osaka, Kita Ward, Chayamachi, 3−４ ２Ｆ",
+        "geocode": {
+          "latitude": 34.70622640000001,
+          "longitude": 135.4989557
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
+      "end_dt": "2026-08-30T11:30:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "f26387bf5fb2c756",
+      "lat": 34.70622640000001,
+      "lng": 135.4989557,
+      "major": false,
+      "matched": [
+        "language_exchange"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 4.0,
+      "source": "wixevents",
+      "start_dt": "2026-08-30T09:00:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🌏Osaka International Meetup in Umeda🍸 Solo Friendly & Mingle  国際交流イベント 大阪 梅田",
+      "url": "https://www.welcometokyoevents.com/events/osaka-international-meetup-in-umeda-solo-friendly-mingle-guo-ji-jiao-liuibento-da-ban-mei-tian-2026-08-30-18-00-1",
+      "venue": "HUB Umeda Chayamachi branch"
     },
     "f3210c14032084a7": {
       "address": {
@@ -3344,7 +8112,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-10T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "f3210c14032084a7",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -3415,7 +8183,7 @@
       "contact": "",
       "description": "Join our relaxed international exchange event in Kyoto! 🌏 Perfect for solo attendees to easily make new friends in a friendly atmosphere. Connect with locals and travelers, enjoy fun conversations, games, and drinks.",
       "end_dt": "2026-08-01T12:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "f4cd706ba713c43c",
       "lat": 34.9899106,
       "lng": 135.7649115,
@@ -3438,6 +8206,78 @@
       "title": "🍹 Kyoto Solo Friendly International Party - Meet & Chat 🍻 関西 国際交流会 in 京都",
       "url": "https://www.welcometokyoevents.com/events/kyoto-solo-friendly-international-party-meet-chat-guan-xi-guo-ji-jiao-liu-hui-in-jing-dou-2026-08-01-18-30-1",
       "venue": "Kyoto Cheeky Pub House"
+    },
+    "fb9b1f2994cec8aa": {
+      "address": {
+        "city": "大阪市",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0071 Osaka, Chuo Ward, Dōtonbori, 2-chōme−3−２９ ニュージャパン角ビル 6F",
+        "geocode": {
+          "latitude": 34.6685723,
+          "longitude": 135.4992319
+        },
+        "postalCode": "542-0071",
+        "streetAddress": {
+          "apt": "6f",
+          "name": "２丁目",
+          "number": "３"
+        },
+        "subdivision": "27",
+        "subdivisions": [
+          {
+            "code": "27",
+            "name": "大阪府",
+            "type": 1
+          },
+          {
+            "code": "大阪市",
+            "name": "大阪市",
+            "type": 3
+          },
+          {
+            "code": "中央区",
+            "name": "中央区",
+            "type": 4
+          },
+          {
+            "code": "２丁目",
+            "name": "２丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
+      "end_dt": "2026-09-02T17:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "fb9b1f2994cec8aa",
+      "lat": 34.6685723,
+      "lng": 135.4992319,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-02T13:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🍻OSAKA Voyager🍸ALL U CAN DRINK🍺Hang out Night Club Friending Meetup Osaka 大阪 友達作り",
+      "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-09-02-22-30",
+      "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
     "fc7bb49fd1ba8c07": {
       "address": {
@@ -3489,7 +8329,7 @@
       "contact": "",
       "description": "Plz show the ticket to the reception\n🌟イベント紹介 / Event Introduction\n🎉大阪・難波のナイトクラブで開催される、国際交流パーティー！\n外国人も日本人も大歓迎！英語や他の言語を使って、気軽に楽しく会話しながら交流できます。\nドリンク片手にゲームや音楽を楽しみながら、新しい友達を作ろう！\n\nJoin our International Night Party in the heart of Osaka! 🌍\nMeet locals & internationals, enjoy fun games, unlimited drinks",
       "end_dt": "2026-08-09T17:00:00+00:00",
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "fc7bb49fd1ba8c07",
       "lat": 34.6685723,
       "lng": 135.4992319,
@@ -3511,6 +8351,77 @@
       "url": "https://www.welcometokyoevents.com/events/osaka-voyager-all-u-can-drink-hang-out-night-club-friending-meetup-osaka-da-ban-you-da-zuori-2026-08-09-22-30",
       "venue": "Osaka Voyager Stand ボヤジャースタンド"
     },
+    "fe5c848b55d72c97": {
+      "address": {
+        "city": "渋谷区",
+        "country": "JP",
+        "countryFullname": "日本",
+        "formattedAddress": "Japan, 〒542-0083 Osaka, Chuo Ward, Higashishinsaibashi, 1-chōme−12−１９ エイトビルヂング3F",
+        "geocode": {
+          "latitude": 34.6746037,
+          "longitude": 135.5036988
+        },
+        "postalCode": "150-0043",
+        "streetAddress": {
+          "apt": "3f",
+          "name": "１丁目",
+          "number": "３"
+        },
+        "subdivisions": [
+          {
+            "code": "東京都",
+            "name": "東京都",
+            "type": 1
+          },
+          {
+            "code": "渋谷区",
+            "name": "渋谷区",
+            "type": 3
+          },
+          {
+            "code": "",
+            "name": "",
+            "type": 4
+          },
+          {
+            "code": "１丁目",
+            "name": "１丁目",
+            "type": 5
+          },
+          {
+            "code": "JP",
+            "name": "日本",
+            "type": 6
+          }
+        ]
+      },
+      "attendee_count": 0,
+      "category": "language_exchange",
+      "contact": "",
+      "description": "Looking for an international party in Osaka? Join our Shuffle & Mingle event in Shinsaibashi. Meet locals and travelers, enjoy drinks, games, and English-friendly conversation.",
+      "end_dt": "2026-09-05T13:00:00+00:00",
+      "first_seen": "2026-07-31T18:21:26.921027",
+      "id": "fe5c848b55d72c97",
+      "lat": 34.6746037,
+      "lng": 135.5036988,
+      "major": false,
+      "matched": [
+        "language_exchange",
+        "nightlife"
+      ],
+      "notified": {},
+      "price": "unknown",
+      "score": 6.0,
+      "source": "wixevents",
+      "start_dt": "2026-09-05T10:30:00+00:00",
+      "tags": [
+        "wixevents",
+        "international"
+      ],
+      "title": "🎉Osaka International Party in Shinsaibashi🍾 Shuffle & Mingle 🌏 大阪 国際交流パーティー",
+      "url": "https://www.welcometokyoevents.com/events/osaka-international-party-in-shinsaibashi-shuffle-mingle-da-ban-guo-ji-jiao-liupati-2026-09-05-19-30",
+      "venue": "Bar Moon Walk, Shinsaibashi Nagabori "
+    },
     "ffdde645fe4a4be6": {
       "address": "",
       "attendee_count": 0,
@@ -3518,7 +8429,7 @@
       "contact": "",
       "description": "ReCase will pick up your luggage from hotels and homes in Japan, and upcycle it for reuse to help reduce waste",
       "end_dt": null,
-      "first_seen": "2026-07-31T14:59:17.173427",
+      "first_seen": "2026-07-31T18:21:26.921027",
       "id": "ffdde645fe4a4be6",
       "lat": null,
       "lng": null,
@@ -3544,9 +8455,9 @@
   },
   "geocode_cache": {},
   "going": {},
-  "last_collect_utc": "2026-07-31T23:59:09.555326+09:00",
+  "last_collect_utc": "2026-08-01T03:21:20.453136+09:00",
   "last_digest_date": "2026-07-31",
-  "last_run_utc": "2026-07-31T14:59:17.207142",
+  "last_run_utc": "2026-07-31T18:21:26.982979",
   "telegram_offset": 553063837,
   "version": 1
 }
