@@ -1336,7 +1336,9 @@
         "language_exchange",
         "nightlife"
       ],
-      "notified": {},
+      "notified": {
+        "day_before": true
+      },
       "price": "unknown",
       "score": 6.0,
       "source": "wixevents",
@@ -2436,7 +2438,9 @@
         "language_exchange",
         "nightlife"
       ],
-      "notified": {},
+      "notified": {
+        "day_before": true
+      },
       "price": "unknown",
       "score": 6.0,
       "source": "wixevents",
@@ -5441,7 +5445,9 @@
         "language_exchange",
         "nightlife"
       ],
-      "notified": {},
+      "notified": {
+        "day_before": true
+      },
       "price": "unknown",
       "score": 6.0,
       "source": "wixevents",
