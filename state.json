@@ -5314,9 +5314,9 @@
   },
   "geocode_cache": {},
   "going": {},
-  "last_collect_utc": "2026-08-19T18:15:49.935698+09:00",
+  "last_collect_utc": "2026-08-19T20:32:25.778876+09:00",
   "last_digest_date": "2026-08-19",
-  "last_run_utc": "2026-08-19T09:15:57.374835",
+  "last_run_utc": "2026-08-19T11:32:32.516228",
   "telegram_offset": 553063837,
   "version": 1
 }
