@@ -148,7 +148,7 @@
       "contact": "",
       "description": "Summer comes early with three fireworks happening back to back – one even has an extra drone show. Here are the details",
       "end_dt": null,
-      "first_seen": "2026-08-21T10:52:54.562570",
+      "first_seen": "2026-08-21T13:46:41.404872",
       "id": "019bff1f6a8370f2",
       "lat": null,
       "lng": null,
@@ -178,7 +178,7 @@
       "contact": "",
       "description": "Enjoy Kyoto's iconic summer float parades in comfort: seats from ¥6,000, with upper tiers offering English live commentary",
       "end_dt": null,
-      "first_seen": "2026-08-21T10:52:54.562570",
+      "first_seen": "2026-08-21T13:46:41.404872",
       "id": "0e983401d6ac2cbe",
       "lat": null,
       "lng": null,
@@ -1349,7 +1349,7 @@
       "contact": "",
       "description": "Skip the crowds and the waiting – get the best views of the thrilling procession this September with seats from ¥3,300",
       "end_dt": null,
-      "first_seen": "2026-08-21T10:52:54.562570",
+      "first_seen": "2026-08-21T13:46:41.404872",
       "id": "4a856dcaa08f9ec3",
       "lat": null,
       "lng": null,
@@ -1734,7 +1734,7 @@
       "contact": "",
       "description": "Umeda Yukata Festival runs for three weeks in July, but don’t miss the street party at Umekita Plaza on July 10 and 11",
       "end_dt": null,
-      "first_seen": "2026-08-21T10:52:54.562570",
+      "first_seen": "2026-08-21T13:46:41.404872",
       "id": "55ceb1cf6d8bb36f",
       "lat": null,
       "lng": null,
@@ -2052,7 +2052,7 @@
       "contact": "",
       "description": "The newly increased accommodation tax in Kyoto went into effect on March 1, making it the highest tourist tax in Japan",
       "end_dt": null,
-      "first_seen": "2026-08-21T10:52:54.562570",
+      "first_seen": "2026-08-21T13:46:41.404872",
       "id": "6b3f2f627822f165",
       "lat": null,
       "lng": null,
@@ -2082,7 +2082,7 @@
       "contact": "",
       "description": "What’s on in Kyoto this year: geisha dance festival, immersive art in a plum garden, rare temple openings, exhibitions and more",
       "end_dt": null,
-      "first_seen": "2026-08-21T10:52:54.562570",
+      "first_seen": "2026-08-21T13:46:41.404872",
       "id": "6c1b9f13ced07689",
       "lat": null,
       "lng": null,
@@ -2112,7 +2112,7 @@
       "contact": "",
       "description": "From global icons to boundary-pushing newcomers, this year’s edition turns the idea of the ‘edge’ into something vividly, urgently human",
       "end_dt": null,
-      "first_seen": "2026-08-21T10:52:54.562570",
+      "first_seen": "2026-08-21T13:46:41.404872",
       "id": "772e32320749e51b",
       "lat": null,
       "lng": null,
@@ -3296,7 +3296,7 @@
       "contact": "",
       "description": "The vibrant colours along this iconic spring hiking trail will reach peak bloom from late April through Golden Week 2026",
       "end_dt": null,
-      "first_seen": "2026-08-21T10:52:54.562570",
+      "first_seen": "2026-08-21T13:46:41.404872",
       "id": "b3b18cf2cd594ee7",
       "lat": null,
       "lng": null,
@@ -3685,7 +3685,7 @@
       "contact": "",
       "description": "At Kyoto Kameoka Balloon Festival 2026, take a hot air balloon ride and enjoy a nighttime light-up amid cherry blossoms",
       "end_dt": null,
-      "first_seen": "2026-08-21T10:52:54.562570",
+      "first_seen": "2026-08-21T13:46:41.404872",
       "id": "bd5d58c8ca92ae21",
       "lat": null,
       "lng": null,
@@ -4501,80 +4501,6 @@
       "url": "https://www.welcometokyoevents.com/events/osaka-solo-friendly-international-party-meet-chat-da-ban-guo-ji-jiao-liu-hui-in-xin-zhai-qiao-2026-09-09-19-30",
       "venue": "Cafe Dining Safari, Shinsaibashi"
     },
-    "eaa7b752789f16d1": {
-      "address": {
-        "city": "渋谷区",
-        "country": "JP",
-        "countryFullname": "日本",
-        "formattedAddress": "Japan, 〒542-0086 Osaka, Chuo Ward, Nishishinsaibashi, 1-chōme−9−１６ 大京心斎橋第２ビル ２F",
-        "geocode": {
-          "latitude": 34.672888,
-          "longitude": 135.4985705
-        },
-        "postalCode": "150-0041",
-        "streetAddress": {
-          "apt": "",
-          "name": "２丁目",
-          "number": "１"
-        },
-        "subdivisions": [
-          {
-            "code": "東京都",
-            "name": "東京都",
-            "type": 1
-          },
-          {
-            "code": "渋谷区",
-            "name": "渋谷区",
-            "type": 3
-          },
-          {
-            "code": "",
-            "name": "",
-            "type": 4
-          },
-          {
-            "code": "２丁目",
-            "name": "２丁目",
-            "type": 5
-          },
-          {
-            "code": "JP",
-            "name": "日本",
-            "type": 6
-          }
-        ]
-      },
-      "attendee_count": 0,
-      "category": "language_exchange",
-      "contact": "",
-      "description": "Osaka International Meetup – Solo Attendees Welcome! \nThis event is perfect for solo attendees, expats, and locals. Even if you’re coming alone, you’ll feel comfortable meeting new people, enjoying friendly conversations, and making friends over drinks in a welcoming social atmosphere.",
-      "end_dt": "2026-08-19T13:00:00+00:00",
-      "first_seen": "2026-08-19T09:15:57.341739",
-      "id": "eaa7b752789f16d1",
-      "lat": 34.672888,
-      "lng": 135.4985705,
-      "major": false,
-      "matched": [
-        "language_exchange",
-        "nightlife"
-      ],
-      "notified": {
-        "day_before": true,
-        "intraday": true
-      },
-      "price": "unknown",
-      "score": 6.0,
-      "source": "wixevents",
-      "start_dt": "2026-08-19T10:30:00+00:00",
-      "tags": [
-        "wixevents",
-        "international"
-      ],
-      "title": "🏯 Osaka Solo Friendly International Party - Meet & Chat 🍻 大阪 国際交流会 in 心斎橋",
-      "url": "https://www.welcometokyoevents.com/events/osaka-solo-friendly-international-party-meet-chat-da-ban-guo-ji-jiao-liu-hui-in-xin-zhai-qiao-2026-08-19-19-30",
-      "venue": "Cafe Dining Safari, Shinsaibashi"
-    },
     "ed018e5b77bcef48": {
       "address": {
         "city": "Kyoto",
@@ -5009,7 +4935,7 @@
       "contact": "",
       "description": "ReCase will pick up your luggage from hotels and homes in Japan, and upcycle it for reuse to help reduce waste",
       "end_dt": null,
-      "first_seen": "2026-08-21T10:52:54.562570",
+      "first_seen": "2026-08-21T13:46:41.404872",
       "id": "ffdde645fe4a4be6",
       "lat": null,
       "lng": null,
@@ -5035,9 +4961,9 @@
   },
   "geocode_cache": {},
   "going": {},
-  "last_collect_utc": "2026-08-21T19:52:47.816456+09:00",
+  "last_collect_utc": "2026-08-21T22:46:34.484731+09:00",
   "last_digest_date": "2026-08-21",
-  "last_run_utc": "2026-08-21T10:52:54.607652",
+  "last_run_utc": "2026-08-21T13:46:41.420502",
   "telegram_offset": 553063837,
   "version": 1
 }
