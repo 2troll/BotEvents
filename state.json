@@ -1583,7 +1583,8 @@
         "language_exchange"
       ],
       "notified": {
-        "day_before": true
+        "day_before": true,
+        "intraday": true
       },
       "price": "unknown",
       "score": 4.0,
